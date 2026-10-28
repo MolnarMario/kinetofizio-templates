@@ -111,7 +111,7 @@ Toate sunt de pe Wikimedia Commons, în domeniul public sau CC0, deci se pot fol
 
 ## Publicare
 
-Demo-ul e pe GitHub Pages, din ramura `main`: https://molnarmario.github.io/kinetofizio-templates/. Fișierul `.nojekyll` oprește procesarea Jekyll, ca paginile să fie servite exact cum sunt.
+Demo-ul e pe GitHub Pages, din ramura `main`: http://thebarbellengineer.com/kinetofizio-templates/. Domeniul vine de la site-ul de utilizator al contului MolnarMario, care are domeniu propriu, așa că adresa `molnarmario.github.io/kinetofizio-templates/` redirecționează acolo. Fișierul `.nojekyll` oprește procesarea Jekyll, ca paginile să fie servite exact cum sunt.
 
 Pentru un client, la fel ca la site-ul Danielei: fișierele variantei alese se urcă în `public_html`. Pentru fiecare client merită adăugate `.htaccess` (HTTPS, fără www, cache pentru poze), `robots.txt` și `sitemap.xml`, după modelul din repo-ul `daniela-rusev-psihoterapeut`.
 

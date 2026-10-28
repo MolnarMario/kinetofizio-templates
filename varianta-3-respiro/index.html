@@ -1,0 +1,713 @@
+<!doctype html>
+<html lang="ro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<!-- Demo pe GitHub Pages: scoate rândul de mai jos când site-ul trece pe domeniul clientului -->
+<meta name="robots" content="noindex">
+<!--
+  Șablon "Respiro": studio mic de kinetoterapie și pilates terapeutic, aspect cald și liniștit.
+  Datele de înlocuit au aceleași valori în toate șabloanele, ca să meargă cu Find & Replace:
+  Nume Studio, 0700 000 000, +40700000000, 40700000000 (WhatsApp), contact@numestudio.ro, numestudio.ro,
+  Strada Exemplu nr. 10, Nume Prenume, prețurile, orarul, recenziile de exemplu și datele firmei din subsol.
+  Lista completă e în README.md.
+-->
+<title>Nume Studio, kinetoterapie și pilates terapeutic în București</title>
+<meta name="description" content="Studio de kinetoterapie și pilates terapeutic în Sector 1, București. Ședințe individuale, clase în grupe de maximum 4 persoane, copii, adulți și seniori. Programări: 0700 000 000.">
+<meta name="theme-color" content="#f6f1e8">
+<link rel="canonical" href="https://numestudio.ro/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://numestudio.ro/">
+<meta property="og:locale" content="ro_RO">
+<meta property="og:title" content="Nume Studio, kinetoterapie și pilates terapeutic">
+<meta property="og:description" content="Mișcare fără durere, în ritmul tău. Ședințe individuale și clase mici de pilates terapeutic. Programări la 0700 000 000.">
+<meta property="og:image" content="https://numestudio.ro/img/og.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='16' fill='%232f5d4a'/%3E%3Cpath d='M6 18c3.3-5 6.7-5 10 0s6.7 5 10 0' fill='none' stroke='%23f6f1e8' stroke-width='2.4' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="image" href="img/yoga-plaja-800.webp" imagesrcset="img/yoga-plaja-800.webp 800w, img/yoga-plaja-1600.webp 1600w" imagesizes="(min-width: 960px) 40vw, 100vw" fetchpriority="high">
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400..700&family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400..500&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Physiotherapy",
+  "@id": "https://numestudio.ro/#studio",
+  "name": "Nume Studio",
+  "url": "https://numestudio.ro/",
+  "image": "https://numestudio.ro/img/og.jpg",
+  "telephone": "+40700000000",
+  "email": "contact@numestudio.ro",
+  "priceRange": "40–1150 RON",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Strada Exemplu nr. 10",
+    "addressLocality": "București",
+    "addressRegion": "Sector 1",
+    "postalCode": "010000",
+    "addressCountry": "RO"
+  },
+  "openingHoursSpecification": [
+    {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "08:00", "closes": "20:30"},
+    {"@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "09:00", "closes": "13:00"}
+  ],
+  "areaServed": "București"
+}
+</script>
+<style>
+:root{
+  --bg:#f6f1e8;
+  --sand:#ede4d4;
+  --surface:#fffdf8;
+  --ink:#1f2d26;
+  --ink-2:#5a655e;
+  --line:#ddd3c2;
+  --green:#2f5d4a;
+  --green-d:#234837;
+  --sage:#a8c1af;
+  --sage-bg:#dde7dc;
+  --clay:#ead6c7;
+  --serif:"Newsreader",Georgia,"Times New Roman",serif;
+  --sans:"Figtree",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --wrap:1160px;
+  --gut:clamp(16px,4vw,40px);
+  --r:22px;
+}
+*,*::before,*::after{box-sizing:border-box}
+[hidden]{display:none!important}
+html{-webkit-text-size-adjust:100%;-webkit-tap-highlight-color:transparent;scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 1.0625rem/1.65 var(--sans);-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit}
+h1,h2,h3{margin:0;font-family:var(--serif);font-weight:400;line-height:1.1;letter-spacing:-.015em;text-wrap:balance}
+h1 em,h2 em{font-style:italic;color:var(--green)}
+p{margin:0 0 1em;text-wrap:pretty}
+.wrap{max-width:var(--wrap);margin:0 auto;padding:0 max(var(--gut),env(safe-area-inset-right)) 0 max(var(--gut),env(safe-area-inset-left))}
+main>section{padding:clamp(64px,8vw,116px) 0}
+[id]{scroll-margin-top:76px}
+.skip{position:absolute;left:-999px;top:0;z-index:60;background:var(--green);color:#fff;padding:10px 14px}
+.skip:focus{left:8px}
+:focus-visible{outline:2px solid var(--green);outline-offset:3px}
+.sec-head{max-width:40rem;margin-bottom:clamp(36px,4.5vw,60px)}
+.sec-head.center{margin-left:auto;margin-right:auto;text-align:center}
+.sec-head h2{font-size:clamp(2.1rem,1.4rem + 2.4vw,3.3rem)}
+.sec-head p{margin:18px 0 0;color:var(--ink-2);font-size:1.12rem}
+/* linia de respirație: un val subțire, folosit ca separator */
+.wave{display:block;width:100%;height:24px;color:var(--sage)}
+.wave path{vector-effect:non-scaling-stroke}
+
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:52px;padding:0 26px;border:0;border-radius:14px;background:var(--green);color:#fff;font:600 1rem/1 var(--sans);text-decoration:none;cursor:pointer;transition:background .15s,color .15s,box-shadow .15s}
+.btn:hover{background:var(--green-d)}
+.btn svg{flex:none;width:18px;height:18px}
+.btn-soft{background:var(--surface);color:var(--ink);box-shadow:inset 0 0 0 1px var(--line)}
+.btn-soft:hover{background:var(--sand)}
+.ul{font-weight:600;color:var(--green);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:5px}
+.ul:hover{text-decoration-thickness:2px}
+
+/* header */
+.top{position:sticky;top:0;z-index:40;background:var(--bg);border-bottom:1px solid transparent;transition:border-color .2s}
+.top.scrolled{border-bottom-color:var(--line)}
+.top .wrap{display:flex;align-items:center;gap:32px;min-height:74px}
+.brand{display:flex;align-items:center;gap:12px;margin-right:auto;text-decoration:none}
+.brand svg{flex:none;width:38px;height:38px}
+.brand b{display:block;font:italic 500 1.45rem/1 var(--serif);letter-spacing:-.01em}
+.brand small{display:block;margin-top:3px;font-size:.8rem;color:var(--ink-2);line-height:1.2}
+.nav{display:none;gap:28px;font-size:.97rem}
+.nav a{color:var(--ink-2);text-decoration:none}
+.nav a:hover{color:var(--ink)}
+.nav a[aria-current]{color:var(--green);text-decoration:underline;text-underline-offset:6px;text-decoration-thickness:1px}
+.top .btn{display:none;min-height:44px;padding:0 20px;font-size:.95rem;border-radius:12px}
+.menu-btn{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 16px;border:1px solid var(--line);border-radius:12px;background:var(--surface);color:var(--ink);font:600 .95rem var(--sans);cursor:pointer}
+.menu-btn svg{width:18px;height:18px}
+.menu-btn[aria-expanded="true"]{background:var(--green);border-color:var(--green);color:#fff}
+.menu{position:absolute;left:0;right:0;top:100%;max-height:calc(100dvh - 74px);overflow-y:auto;background:var(--bg);border-bottom:1px solid var(--line);box-shadow:0 30px 40px -30px rgba(31,45,38,.35);padding:4px max(var(--gut),env(safe-area-inset-right)) 22px max(var(--gut),env(safe-area-inset-left))}
+.menu a:not(.btn){display:flex;align-items:center;min-height:54px;border-bottom:1px solid var(--line);font:400 1.4rem var(--serif);text-decoration:none}
+.menu .btn{display:flex;width:100%;margin-top:18px}
+@media (max-width:420px){.brand small{font-size:.72rem;white-space:nowrap}.brand b{font-size:1.3rem}}
+@media (min-width:1080px){
+  .nav{display:flex}
+  .top .btn{display:inline-flex}
+  .menu-btn,.menu{display:none!important}
+}
+
+/* hero */
+.hero{position:relative;isolation:isolate;padding:clamp(28px,4vw,64px) 0 clamp(56px,7vw,96px);overflow:hidden}
+.hero-grid{display:grid;gap:44px}
+.hero-place{margin-bottom:22px;color:var(--ink-2);font-size:.98rem}
+.hero h1{font-size:clamp(2.7rem,1.5rem + 4.6vw,5rem);line-height:1.02;letter-spacing:-.025em;max-width:12ch}
+.lede{max-width:33rem;margin:26px 0 34px;color:var(--ink-2);font-size:clamp(1.1rem,1rem + .35vw,1.25rem)}
+.cta-row{display:flex;flex-wrap:wrap;align-items:center;gap:14px 26px}
+.facts{display:flex;flex-wrap:wrap;gap:10px 28px;margin:44px 0 0;padding:0;list-style:none;color:var(--ink-2);font-size:.95rem}
+.facts li{display:flex;align-items:center;gap:10px}
+.facts svg{flex:none;width:20px;height:20px;color:var(--green)}
+.hero-media{position:relative;margin:0}
+.hero-media img{width:100%;aspect-ratio:3/4;object-fit:cover;object-position:50% 65%;border-radius:var(--r) var(--r) var(--r) 120px;background:var(--sand)}
+.hero-note{position:absolute;right:-12px;bottom:36px;max-width:250px;padding:18px 20px;background:var(--surface);border-radius:18px;box-shadow:0 24px 50px -28px rgba(31,45,38,.5)}
+.hero-note b{display:block;font:500 1.25rem/1.2 var(--serif)}
+.hero-note span{display:block;margin-top:4px;color:var(--ink-2);font-size:.92rem;line-height:1.45}
+.hero .wave{position:absolute;left:0;right:0;bottom:26px;height:44px;z-index:-1;opacity:.8}
+@media (max-width:959px){
+  .hero-media img{aspect-ratio:4/3;border-radius:var(--r) var(--r) var(--r) 80px;object-position:50% 70%}
+  .hero-note{right:12px;bottom:-24px}
+  .hero-media{margin-bottom:24px}
+}
+@media (min-width:960px){
+  .hero-grid{grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);align-items:center;gap:72px}
+}
+
+/* despre */
+.about{background:var(--surface)}
+.about-grid{display:grid;gap:40px}
+.about figure{margin:0;position:relative}
+.about img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:50% 25%;border-radius:var(--r);background:var(--sand)}
+.about figcaption{margin-top:12px;color:var(--ink-2);font-size:.9rem}
+.letter h2{font-size:clamp(2rem,1.4rem + 2vw,3rem);margin-bottom:24px}
+.letter p{font-family:var(--serif);font-size:clamp(1.15rem,1.05rem + .35vw,1.32rem);line-height:1.6;max-width:34rem}
+.sign{margin-top:28px;padding-top:20px;border-top:1px solid var(--line);font-size:.97rem;color:var(--ink-2)}
+.sign b{display:block;font:italic 500 1.5rem/1.2 var(--serif);color:var(--ink)}
+.creds{list-style:none;margin:24px 0 0;padding:0;display:grid;gap:8px;font-size:.95rem;color:var(--ink-2)}
+.creds li{display:flex;gap:10px}
+.creds svg{flex:none;width:18px;height:18px;margin-top:3px;color:var(--green)}
+@media (min-width:900px){.about-grid{grid-template-columns:minmax(0,5fr) minmax(0,6fr);gap:80px;align-items:center}}
+
+/* servicii */
+.svc{list-style:none;margin:0;padding:0;display:grid;gap:14px}
+.svc li{display:grid;grid-template-columns:52px minmax(0,1fr);gap:4px 18px;padding:26px;background:var(--surface);border-radius:var(--r)}
+.svc .ic{grid-row:span 3;display:grid;place-items:center;width:52px;height:52px;border-radius:16px;background:var(--sage-bg);color:var(--green)}
+.svc .ic svg{width:26px;height:26px}
+.svc h3{font-size:1.5rem;line-height:1.2}
+.svc p{margin:6px 0 0;color:var(--ink-2);font-size:.98rem}
+.svc small{display:block;margin-top:10px;font-size:.88rem;font-weight:600;color:var(--green)}
+@media (min-width:720px){.svc{grid-template-columns:1fr 1fr}}
+@media (min-width:1040px){
+  .svc{grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+  .svc li{grid-template-columns:1fr;padding:30px 28px}
+  .svc .ic{grid-row:auto;margin-bottom:20px}
+}
+
+/* orar */
+.sched{background:var(--sage-bg)}
+.sched-top{display:grid;gap:28px;margin-bottom:36px}
+.sched-top img{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:var(--r)}
+.sched-top .sec-head{margin-bottom:0}
+@media (min-width:900px){.sched-top{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:64px;align-items:end}}
+.days-nav{display:none}
+.week{display:grid;gap:14px}
+.day{padding:22px 20px;background:var(--surface);border-radius:18px}
+.day h3{font-size:1.35rem;margin-bottom:10px}
+.day ul{list-style:none;margin:0;padding:0}
+.day li{display:grid;grid-template-columns:3.4rem 1fr;gap:10px;padding:10px 0;border-top:1px solid var(--line);font-size:.95rem;line-height:1.4}
+.day time{font-weight:700;font-variant-numeric:tabular-nums}
+.day li span small{display:block;color:var(--ink-2);font-size:.85rem}
+.day.today{box-shadow:inset 0 0 0 2px var(--green)}
+.day.today h3::after{content:"azi";margin-left:10px;font:600 .8rem var(--sans);color:var(--green);vertical-align:.2em}
+.sched-note{margin:24px 0 0;color:var(--ink-2);font-size:.95rem;max-width:44rem}
+@media (min-width:1000px){.week{grid-template-columns:repeat(6,minmax(0,1fr));gap:10px}.day{padding:20px 16px}.day li{grid-template-columns:1fr;gap:2px}}
+@media (max-width:999px){
+  .js .days-nav{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:6px;margin-bottom:12px}
+  .days-nav button{min-height:46px;padding:0;border:1px solid transparent;border-radius:12px;background:var(--surface);color:var(--ink);font:600 .95rem var(--sans);cursor:pointer}
+  .days-nav button[aria-pressed="true"]{background:var(--green);color:#fff}
+  .js .day:not(.shown){display:none}
+}
+
+/* prima ședință */
+.first-steps{list-style:none;margin:0;padding:0;display:grid;gap:36px;counter-reset:s}
+.first-steps li{counter-increment:s;position:relative;padding-left:72px}
+.first-steps li::before{content:counter(s);position:absolute;left:0;top:-4px;display:grid;place-items:center;width:52px;height:52px;border-radius:50%;background:var(--clay);font:italic 500 1.6rem/1 var(--serif);color:var(--ink)}
+.first-steps h3{font-size:1.5rem}
+.first-steps p{margin:8px 0 0;color:var(--ink-2)}
+.steps-wave{display:none}
+@media (min-width:900px){
+  .first-steps{grid-template-columns:repeat(3,minmax(0,1fr));gap:48px;position:relative}
+  .first-steps li{padding:84px 0 0}
+  .first-steps li::before{top:0;width:60px;height:60px}
+  .steps-wave{display:block;position:absolute;left:60px;right:0;top:12px;width:calc(100% - 60px);height:36px;z-index:-1}
+}
+.first-wrap{position:relative;isolation:isolate}
+
+/* tarife */
+.prices{background:var(--surface)}
+.price-grid{display:grid;gap:24px}
+.pcol{padding:clamp(24px,3vw,36px);background:var(--bg);border-radius:var(--r)}
+.pcol h3{font-size:1.7rem;margin-bottom:6px}
+.pcol>p{margin:0 0 18px;color:var(--ink-2);font-size:.97rem}
+.pcol dl{margin:0}
+.pcol dl div{display:flex;justify-content:space-between;align-items:baseline;gap:18px;padding:14px 0;border-top:1px solid var(--line)}
+.pcol dt small{display:block;color:var(--ink-2);font-size:.86rem}
+.pcol dd{margin:0;font:500 1.3rem/1 var(--serif);white-space:nowrap}
+.gift{display:grid;gap:20px;align-items:center;padding:clamp(24px,3vw,36px);background:var(--clay);border-radius:var(--r)}
+.gift h3{font-size:clamp(1.6rem,1.3rem + 1vw,2.1rem)}
+.gift p{margin:8px 0 0;color:#5b4c42;max-width:34rem}
+@media (min-width:860px){
+  .price-grid{grid-template-columns:1fr 1fr}
+  .gift{grid-column:1/-1;grid-template-columns:auto 1fr auto;gap:32px}
+}
+.gift svg.g{width:56px;height:56px;color:var(--ink)}
+
+/* sfaturi */
+.tips-grid{display:grid;gap:40px}
+.tips-grid figure{margin:0}
+.tips-grid img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:var(--r)}
+.tips{list-style:none;margin:0;padding:0;border-top:1px solid var(--ink)}
+.tips li{padding:22px 0;border-bottom:1px solid var(--line)}
+.tips h3{display:flex;justify-content:space-between;gap:16px;align-items:baseline;font-size:1.4rem}
+.tips h3 span{font:600 .85rem var(--sans);color:var(--green);white-space:nowrap}
+.tips p{margin:8px 0 0;color:var(--ink-2)}
+.tips-note{margin:18px 0 0;font-size:.9rem;color:var(--ink-2)}
+@media (min-width:900px){.tips-grid{grid-template-columns:minmax(0,5fr) minmax(0,6fr);gap:72px;align-items:center}}
+
+/* recenzii */
+.rev{background:var(--green);color:#f3efe6}
+.rev .sec-head h2{color:#fff}
+.rev .sec-head h2 em{color:var(--sage)}
+.rev .sec-head p{color:#c9d8cd}
+.quotes{display:grid;gap:18px}
+.quotes blockquote{margin:0;padding:28px;background:rgba(255,255,255,.07);border-radius:var(--r)}
+.quotes p{font:italic 400 1.22rem/1.5 var(--serif);color:#fff}
+.quotes footer{font-size:.92rem;color:#c9d8cd}
+.quotes footer b{color:#fff;font-weight:600}
+.rev-link{margin-top:28px;text-align:center}
+.rev-link a{color:#fff}
+@media (min-width:900px){.quotes{grid-template-columns:repeat(3,minmax(0,1fr))}}
+
+/* întrebări */
+.faq-list{max-width:48rem;margin:0 auto}
+.faq details{border-bottom:1px solid var(--line)}
+.faq details:first-child{border-top:1px solid var(--line)}
+.faq summary{position:relative;padding:22px 48px 22px 0;font:400 1.3rem/1.35 var(--serif);cursor:pointer;list-style:none}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"";position:absolute;right:6px;top:50%;width:22px;height:22px;margin-top:-11px;border-radius:50%;background:var(--sage-bg) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%232f5d4a' stroke-width='2.5' stroke-linecap='round'%3E%3Cpath d='M12 7v10M7 12h10'/%3E%3C/svg%3E") center/14px no-repeat;transition:transform .2s}
+.faq details[open] summary::after{transform:rotate(45deg)}
+.faq details p{margin:0 0 24px;color:var(--ink-2)}
+
+/* contact */
+.contact{background:var(--sand)}
+.contact-grid{display:grid;gap:40px}
+.contact h2{font-size:clamp(2.1rem,1.4rem + 2.4vw,3.3rem)}
+.contact-intro{margin:18px 0 26px;color:var(--ink-2);font-size:1.1rem;max-width:30rem}
+.phone-big{display:inline-block;font:400 clamp(2.1rem,1.6rem + 2vw,3rem)/1.1 var(--serif);color:var(--ink);text-decoration:none;border-bottom:1px solid var(--green)}
+.reach{list-style:none;margin:26px 0 0;padding:0;display:grid;gap:14px}
+.reach li{display:flex;gap:14px;line-height:1.5}
+.reach svg{flex:none;width:20px;height:20px;margin-top:3px;color:var(--green)}
+.reach address{font-style:normal}
+.hours{width:100%;max-width:24rem;margin-top:28px;border-collapse:collapse;font-size:.98rem}
+.hours caption{text-align:left;font:500 1.2rem var(--serif);padding-bottom:8px}
+.hours th,.hours td{padding:9px 0;border-top:1px solid var(--line);text-align:left;font-weight:400}
+.hours td{text-align:right;font-variant-numeric:tabular-nums}
+.hours tr.today th,.hours tr.today td{color:var(--green);font-weight:700}
+.form{padding:clamp(22px,3.2vw,40px);background:var(--surface);border-radius:var(--r)}
+.form h3{font-size:1.8rem}
+.form>p{margin:8px 0 22px;color:var(--ink-2);font-size:.97rem}
+.fields{display:grid;gap:16px}
+.field label{display:block;margin-bottom:6px;font-size:.92rem;font-weight:600}
+.field input,.field select,.field textarea{width:100%;min-height:52px;padding:12px 16px;border:1px solid var(--line);border-radius:14px;background:var(--bg);color:var(--ink);font:400 1rem var(--sans)}
+.field textarea{min-height:100px;resize:vertical}
+.field input:focus,.field select:focus,.field textarea:focus{outline:2px solid var(--green);outline-offset:0;background:#fff}
+.field [aria-invalid="true"]{border-color:#b3412f}
+.form-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+.form-actions .btn{flex:1 1 220px}
+.fine{margin:16px 0 0;color:var(--ink-2);font-size:.85rem;line-height:1.5}
+@media (min-width:640px){.fields{grid-template-columns:1fr 1fr}.field.full{grid-column:1/-1}}
+@media (min-width:960px){.contact-grid{grid-template-columns:minmax(0,5fr) minmax(0,6fr);gap:72px;align-items:start}}
+.map{display:block;width:100%;height:clamp(280px,34vw,400px);border:0;filter:sepia(.25) saturate(.8);background:var(--sand)}
+
+/* subsol */
+.foot{padding:48px 0 calc(110px + env(safe-area-inset-bottom));font-size:.9rem;color:var(--ink-2)}
+.foot-grid{display:grid;gap:28px}
+.foot b{color:var(--ink)}
+.foot p{margin:0 0 6px}
+.foot ul{list-style:none;margin:0;padding:0;display:grid;gap:6px}
+.foot a{color:var(--ink);text-underline-offset:3px}
+.disclaimer{grid-column:1/-1;padding-top:22px;border-top:1px solid var(--line)}
+@media (min-width:800px){.foot-grid{grid-template-columns:2fr 1fr 1fr}.foot{padding-bottom:48px}}
+
+.callbar{position:fixed;left:0;right:0;bottom:0;z-index:30;display:flex;gap:10px;padding:10px max(16px,env(safe-area-inset-right)) calc(10px + env(safe-area-inset-bottom)) max(16px,env(safe-area-inset-left));background:var(--bg);border-top:1px solid var(--line);transition:transform .25s ease,visibility 0s}
+.callbar .btn{flex:1;min-height:50px;padding:0 12px}
+.js .callbar:not(.show),.menu-open .callbar{transform:translateY(100%);visibility:hidden;transition:transform .25s ease,visibility 0s .25s}
+@media (min-width:800px){.callbar{display:none}}
+@media (prefers-reduced-motion:reduce){.callbar,.js .callbar:not(.show){transition:none}}
+</style>
+<script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+<a class="skip" href="#continut">Sari la conținut</a>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#">
+      <svg viewBox="0 0 38 38" aria-hidden="true"><circle cx="19" cy="19" r="19" fill="#2f5d4a"/><path d="M8 21c3.7-5.5 7.3-5.5 11 0s7.3 5.5 11 0" fill="none" stroke="#f6f1e8" stroke-width="2.4" stroke-linecap="round"/></svg>
+      <span><b>Nume Studio</b><small>kinetoterapie și pilates terapeutic</small></span>
+    </a>
+    <nav class="nav" aria-label="Navigare">
+      <a href="#despre">Despre</a>
+      <a href="#servicii">Servicii</a>
+      <a href="#orar">Orar</a>
+      <a href="#tarife">Tarife</a>
+      <a href="#intrebari">Întrebări</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="btn" href="#contact">Programează-te</a>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="meniu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 8h16M4 16h16"/></svg>Meniu</button>
+  </div>
+  <nav class="menu" id="meniu" aria-label="Secțiuni" hidden>
+    <a href="#despre">Despre</a>
+    <a href="#servicii">Servicii</a>
+    <a href="#orar">Orarul claselor</a>
+    <a href="#prima-sedinta">Prima ședință</a>
+    <a href="#tarife">Tarife</a>
+    <a href="#sfaturi">Exerciții pentru acasă</a>
+    <a href="#intrebari">Întrebări</a>
+    <a href="#contact">Contact</a>
+    <a class="btn" href="tel:+40700000000"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>Sună: 0700 000 000</a>
+  </nav>
+</header>
+
+<main id="continut">
+<section class="hero" id="sus">
+  <svg class="wave" viewBox="0 0 1200 60" preserveAspectRatio="none" aria-hidden="true"><path d="M0 30c100-34 200-34 300 0s200 34 300 0 200-34 300 0 200 34 300 0" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
+  <div class="wrap hero-grid">
+    <div>
+      <p class="hero-place">Studio de kinetoterapie în Sector 1, București</p>
+      <h1>Mișcare <em>fără durere</em>, în ritmul tău.</h1>
+      <p class="lede">Un studio mic, cu un singur pacient în sală la ședințele individuale și maximum patru oameni la clase. Lucrăm cu adulți, copii și seniori.</p>
+      <div class="cta-row">
+        <a class="btn" href="#contact">Programează prima ședință</a>
+        <a class="ul" href="#orar">Vezi orarul claselor</a>
+      </div>
+      <ul class="facts">
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>Clase de maximum 4 persoane</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 13c0 5-3.5 7.5-7.7 9a1 1 0 0 1-.7 0C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.2-2.7a1.2 1.2 0 0 1 1.6 0C14.5 3.8 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></svg>Fizioterapeut cu drept de liberă practică</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></svg>4,9 din 95 de recenzii Google</li>
+      </ul>
+    </div>
+    <figure class="hero-media">
+      <img src="img/yoga-plaja-800.webp" srcset="img/yoga-plaja-800.webp 800w, img/yoga-plaja-1600.webp 1600w" sizes="(min-width: 960px) 40vw, 100vw" width="800" height="1200" alt="Femeie care face exerciții de echilibru pe malul mării, la răsărit" fetchpriority="high">
+      <div class="hero-note"><b>Prima ședință</b><span>60 de minute de evaluare, apoi primești planul și primele exerciții.</span></div>
+    </figure>
+  </div>
+</section>
+
+<section class="about" id="despre">
+  <div class="wrap about-grid">
+    <figure>
+      <img src="img/terapeut-1-800.webp" srcset="img/terapeut-1-800.webp 800w, img/terapeut-1-1600.webp 1600w" sizes="(min-width: 900px) 460px, 100vw" width="800" height="1195" loading="lazy" alt="Fizioterapeuta Nume Prenume în sala de tratament a studioului">
+      <figcaption>Nume Prenume, în sala de tratament</figcaption>
+    </figure>
+    <div class="letter">
+      <h2>Bun venit în <em>studio</em></h2>
+      <p>Am deschis studioul pentru că în clinicile mari nu aveam timp să-mi ascult pacienții. Aici, fiecare ședință începe cu o întrebare simplă: cum te-ai simțit de data trecută?</p>
+      <p>Lucrez cu oameni care vor să scape de o durere veche, să se miște mai ușor după o operație sau să aibă grijă de coloană înainte să apară problemele. Nu există exerciții greșite, doar exerciții puse la momentul nepotrivit.</p>
+      <div class="sign"><b>Nume Prenume</b>Fizioterapeut, fondatoarea studioului</div>
+      <ul class="creds">
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Licență în kinetoterapie, Universitatea Exemplu</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Instructor de pilates terapeutic, curs certificat</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Membru al Colegiului Fizioterapeuților din România</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="servicii">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Ce facem <em>împreună</em></h2>
+      <p>Fiecare program pornește de la o evaluare. Abia apoi alegem dacă lucrăm individual, în grupă sau combinat.</p>
+    </div>
+    <ul class="svc">
+      <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="4.5" r="2"/><path d="M12 7v7M8 10l4-1 4 1M9 21l3-7 3 7"/></svg></span><h3>Kinetoterapie individuală</h3><p>Dureri de spate și de gât, hernie de disc, recuperare după fracturi și operații.</p><small>50 de minute, unu la unu</small></li>
+      <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 18h18"/><circle cx="7" cy="9" r="2"/><path d="M7 11v4l5-3 5 3"/><path d="M17 15v-3"/></svg></span><h3>Pilates terapeutic</h3><p>Exerciții pentru stabilitatea coloanei, respirație și control, în grupe mici.</p><small>Clase de 55 de minute, maximum 4 persoane</small></li>
+      <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="6" r="2.5"/><path d="M12 8.5V15M9 11h6M10 21l2-6 2 6"/></svg></span><h3>Kinetoterapie pentru copii</h3><p>Postură, scolioză, picior plat și coordonare, cu exerciții transformate în joc.</p><small>De la 4 ani, cu părintele în sală</small></li>
+      <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21c-4.4 0-8-3-8-7.5C4 8 12 3 12 3s8 5 8 10.5c0 4.5-3.6 7.5-8 7.5z"/><path d="M12 21v-8"/></svg></span><h3>Recuperare după naștere</h3><p>Exerciții pentru abdomen, spate și postură, adaptate etapei în care ești.</p><small>Din a 6-a săptămână, cu acordul medicului</small></li>
+      <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="4.5" r="2"/><path d="M11 7l-1 6 3 3v5M10 13l-3 8M13 9l3 2M18 11v10"/></svg></span><h3>Mișcare pentru seniori</h3><p>Echilibru, forță și mers sigur, ca să previi căzăturile și să rămâi independent.</p><small>Individual sau în grupa de dimineață</small></li>
+      <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 11V6a2 2 0 0 0-4 0v1M14 10V4a2 2 0 0 0-4 0v6M10 10.5V6a2 2 0 0 0-4 0v8a8 8 0 0 0 8 8h2a8 8 0 0 0 8-8v-2a2 2 0 0 0-4 0"/></svg></span><h3>Masaj terapeutic</h3><p>Pentru contracturi, tensiune și recuperare, singur sau înaintea unei ședințe.</p><small>30 sau 50 de minute</small></li>
+    </ul>
+  </div>
+</section>
+
+<section class="sched" id="orar">
+  <div class="wrap">
+    <div class="sched-top">
+      <div class="sec-head">
+        <h2>Orarul <em>claselor</em></h2>
+        <p>Clasele sunt mici, așa că locurile se ocupă repede. Rezervă-ți locul cu o zi înainte, la telefon sau pe WhatsApp.</p>
+      </div>
+      <img src="img/yoga-parc-800.webp" srcset="img/yoga-parc-800.webp 800w, img/yoga-parc-1600.webp 1600w" sizes="(min-width: 900px) 540px, 100vw" width="800" height="600" loading="lazy" alt="Femeie care face un exercițiu de mobilitate a coloanei pe saltea, în parc">
+    </div>
+    <div class="days-nav" role="group" aria-label="Alege ziua">
+      <button type="button" data-d="1" aria-label="Luni">Lu</button><button type="button" data-d="2" aria-label="Marți">Ma</button><button type="button" data-d="3" aria-label="Miercuri">Mi</button><button type="button" data-d="4" aria-label="Joi">Jo</button><button type="button" data-d="5" aria-label="Vineri">Vi</button><button type="button" data-d="6" aria-label="Sâmbătă">Sâ</button>
+    </div>
+    <div class="week">
+      <div class="day" data-d="1"><h3>Luni</h3><ul>
+        <li><time>08:00</time><span>Pilates terapeutic<small>începători</small></span></li>
+        <li><time>18:00</time><span>Spate sănătos<small>toate nivelurile</small></span></li>
+        <li><time>19:15</time><span>Pilates terapeutic<small>mediu</small></span></li>
+      </ul></div>
+      <div class="day" data-d="2"><h3>Marți</h3><ul>
+        <li><time>10:00</time><span>Mișcare pentru seniori<small>echilibru și forță</small></span></li>
+        <li><time>17:00</time><span>Postură pentru copii<small>8–12 ani</small></span></li>
+        <li><time>18:30</time><span>Pilates terapeutic<small>începători</small></span></li>
+      </ul></div>
+      <div class="day" data-d="3"><h3>Miercuri</h3><ul>
+        <li><time>08:00</time><span>Pilates terapeutic<small>mediu</small></span></li>
+        <li><time>18:00</time><span>Spate sănătos<small>toate nivelurile</small></span></li>
+        <li><time>19:15</time><span>Pilates terapeutic<small>începători</small></span></li>
+      </ul></div>
+      <div class="day" data-d="4"><h3>Joi</h3><ul>
+        <li><time>10:00</time><span>Mișcare pentru seniori<small>echilibru și forță</small></span></li>
+        <li><time>17:00</time><span>Postură pentru copii<small>12–16 ani</small></span></li>
+        <li><time>18:30</time><span>Pilates terapeutic<small>mediu</small></span></li>
+      </ul></div>
+      <div class="day" data-d="5"><h3>Vineri</h3><ul>
+        <li><time>08:00</time><span>Pilates terapeutic<small>începători</small></span></li>
+        <li><time>17:30</time><span>Spate sănătos<small>toate nivelurile</small></span></li>
+      </ul></div>
+      <div class="day" data-d="6"><h3>Sâmbătă</h3><ul>
+        <li><time>10:00</time><span>Pilates terapeutic<small>toate nivelurile</small></span></li>
+        <li><time>11:15</time><span>Mișcare după naștere<small>cu acordul medicului</small></span></li>
+      </ul></div>
+    </div>
+    <p class="sched-note">Ședințele individuale le programăm în restul orelor, de luni până vineri între 08:00 și 20:30. Prima clasă de probă costă 40 de lei.</p>
+  </div>
+</section>
+
+<section id="prima-sedinta">
+  <div class="wrap">
+    <div class="sec-head center">
+      <h2>Cum arată <em>prima ședință</em></h2>
+      <p>Fără grabă și fără termeni pe care nu-i înțelegi. Pleci acasă știind ce ai de făcut.</p>
+    </div>
+    <div class="first-wrap">
+      <svg class="steps-wave" viewBox="0 0 1000 36" preserveAspectRatio="none" aria-hidden="true"><path d="M0 18c83-24 167-24 250 0s167 24 250 0 167-24 250 0 167 24 250 0" fill="none" stroke="#a8c1af" stroke-width="1.5" vector-effect="non-scaling-stroke"/></svg>
+      <ol class="first-steps">
+        <li><h3>Ne cunoaștem</h3><p>Îmi povestești ce te doare și de când. Mă uit la investigații, la postură și la felul în care te miști.</p></li>
+        <li><h3>Lucrăm împreună</h3><p>Facem primele exerciții chiar în ședință, ca să vezi cum se simt și să le corectăm pe loc.</p></li>
+        <li><h3>Continui acasă</h3><p>Primești 3–4 exerciții scrise, cu poze, și stabilim împreună ritmul ședințelor următoare.</p></li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<section class="prices" id="tarife">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Tarife și <em>abonamente</em></h2>
+      <p>Abonamentele sunt valabile 6 săptămâni de la prima ședință. Plătești cu cardul sau numerar.</p>
+    </div>
+    <div class="price-grid">
+      <div class="pcol">
+        <h3>Ședințe individuale</h3>
+        <p>Kinetoterapie unu la unu, adaptată ție.</p>
+        <dl>
+          <div><dt>Evaluare și prima ședință<small>60 de minute</small></dt><dd>180 lei</dd></div>
+          <div><dt>Ședință de kinetoterapie<small>50 de minute</small></dt><dd>160 lei</dd></div>
+          <div><dt>Abonament 8 ședințe</dt><dd>1.150 lei</dd></div>
+          <div><dt>Masaj terapeutic<small>30 / 50 de minute</small></dt><dd>100 / 150 lei</dd></div>
+        </dl>
+      </div>
+      <div class="pcol">
+        <h3>Clase în grupă</h3>
+        <p>Pilates terapeutic, spate sănătos, seniori, copii.</p>
+        <dl>
+          <div><dt>Clasă de probă</dt><dd>40 lei</dd></div>
+          <div><dt>O clasă</dt><dd>70 lei</dd></div>
+          <div><dt>Abonament 8 clase</dt><dd>480 lei</dd></div>
+          <div><dt>Abonament 12 clase</dt><dd>660 lei</dd></div>
+        </dl>
+      </div>
+      <div class="gift">
+        <svg class="g" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="8" width="18" height="4" rx="1"/><path d="M12 8v13M19 12v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-7M7.5 8a2.5 2.5 0 0 1 0-5C10 3 12 8 12 8s2-5 4.5-5a2.5 2.5 0 0 1 0 5"/></svg>
+        <div><h3>Voucher cadou</h3><p>Oferă cuiva drag o evaluare, un abonament sau un masaj. Voucherul e valabil 6 luni și îl primești pe e-mail sau tipărit, în plic.</p></div>
+        <a class="btn" href="https://wa.me/40700000000?text=Bun%C4%83%20ziua!%20A%C8%99%20dori%20un%20voucher%20cadou." target="_blank" rel="noopener">Cere un voucher</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="sfaturi">
+  <div class="wrap tips-grid">
+    <figure><img src="img/banda-elastica-800.webp" srcset="img/banda-elastica-800.webp 800w, img/banda-elastica-1600.webp 1600w" sizes="(min-width: 900px) 480px, 100vw" width="800" height="534" loading="lazy" alt="Pacientă care face exerciții de mobilitate a umărului cu un baston, întinsă pe saltea"></figure>
+    <div>
+      <div class="sec-head">
+        <h2>Trei exerciții pentru <em>pauza de la birou</em></h2>
+        <p>Le poți face pe scaun, fără echipament. Dacă te doare în timpul lor, oprește-te și scrie-ne.</p>
+      </div>
+      <ol class="tips">
+        <li><h3>Bărbia spre piept <span>10 repetări</span></h3><p>Stai drept și trage ușor bărbia înapoi, ca și cum ai face o bărbie dublă. Ține 3 secunde și relaxează.</p></li>
+        <li><h3>Rotații de umeri <span>10 în fiecare sens</span></h3><p>Ridică umerii spre urechi, du-i înapoi și coboară-i. Mișcarea e lentă și cât mai largă.</p></li>
+        <li><h3>Răsucire pe scaun <span>3 pe fiecare parte</span></h3><p>Cu tălpile pe podea, răsucește trunchiul spre dreapta, ține 3 respirații, apoi spre stânga.</p></li>
+      </ol>
+      <p class="tips-note">Exercițiile sunt generale și nu înlocuiesc o evaluare.</p>
+    </div>
+  </div>
+</section>
+
+<!-- EXEMPLU: înlocuiește citatele și nota cu recenzii reale, cu acordul autorilor -->
+<section class="rev" id="recenzii">
+  <div class="wrap">
+    <div class="sec-head center">
+      <h2>Ce spun <em>oamenii</em></h2>
+      <p>4,9 din 5, din 95 de recenzii pe Google.</p>
+    </div>
+    <div class="quotes">
+      <blockquote><p>Am venit pentru o durere de spate care mă ținea de doi ani. După două luni de pilates terapeutic pot să stau la birou o zi întreagă fără să mă gândesc la ea.</p><footer><b>Cristina L.</b>, clase de pilates terapeutic</footer></blockquote>
+      <blockquote><p>Fiica mea merge cu drag la ședințe, ceea ce nu credeam posibil. Postura s-a îmbunătățit vizibil, iar exercițiile le face și acasă.</p><footer><b>Alina S.</b>, mama unei paciente de 11 ani</footer></blockquote>
+      <blockquote><p>La 72 de ani mi-era frică să mai ies singur din casă. Grupa de dimineață mi-a redat încrederea în picioarele mele.</p><footer><b>Ion B.</b>, mișcare pentru seniori</footer></blockquote>
+    </div>
+    <p class="rev-link"><a class="ul" style="color:#fff" href="https://maps.google.com/" target="_blank" rel="noopener">Citește toate recenziile pe Google</a></p>
+  </div>
+</section>
+
+<section class="faq" id="intrebari">
+  <div class="wrap">
+    <div class="sec-head center">
+      <h2>Întrebări <em>frecvente</em></h2>
+    </div>
+    <div class="faq-list">
+      <details><summary>Ce diferență e între pilates terapeutic și pilates la sală?</summary><p>Clasele de pilates terapeutic sunt conduse de un fizioterapeut, în grupe de maximum patru persoane. Știu ce probleme are fiecare om din sală și adaptez fiecare exercițiu.</p></details>
+      <details><summary>Pot veni la clase dacă am hernie de disc?</summary><p>Da, dar după o evaluare individuală. Așa știm ce exerciții ți se potrivesc și în ce grupă să intri.</p></details>
+      <details><summary>Am nevoie de trimitere de la medic?</summary><p>Nu. Dacă ai investigații sau un diagnostic, adu-le la prima ședință. Dacă evaluarea arată că ai nevoie de un medic, îți spun și te îndrum.</p></details>
+      <details><summary>De la ce vârstă lucrați cu copiii?</summary><p>De la 4 ani, individual. Grupele de postură sunt pentru copii între 8 și 16 ani. Părintele poate rămâne în sală.</p></details>
+      <details><summary>Ce să port?</summary><p>Haine comode și șosete. Lucrăm desculți sau în șosete, iar saltelele și echipamentele sunt ale studioului.</p></details>
+      <details><summary>Ce se întâmplă dacă nu pot ajunge?</summary><p>Anunță-mă cu cel puțin 12 ore înainte și mutăm ședința sau clasa fără cost. Altfel, ședința se consideră efectuată.</p></details>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact" data-hide-callbar>
+  <div class="wrap contact-grid">
+    <div>
+      <h2>Hai să <em>începem</em></h2>
+      <p class="contact-intro">Sună-mă, scrie-mi pe WhatsApp sau completează formularul. Îți răspund în aceeași zi.</p>
+      <a class="phone-big" href="tel:+40700000000">0700 000 000</a>
+      <ul class="reach">
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22z"/></svg><a href="https://wa.me/40700000000" target="_blank" rel="noopener">Scrie-mi pe WhatsApp</a></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg><a href="mailto:contact@numestudio.ro">contact@numestudio.ro</a></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 5-5.5 10.2-7.4 11.8a1 1 0 0 1-1.2 0C9.5 20.2 4 15 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg><address>Strada Exemplu nr. 10, etaj 1, Sector 1, București<br>Interfon 3. Parcare pe stradă.</address></li>
+      </ul>
+      <table class="hours" data-hours>
+        <caption>Program</caption>
+        <tbody>
+          <tr data-days="1,2,3,4,5"><th scope="row">Luni–vineri</th><td>08:00–20:30</td></tr>
+          <tr data-days="6"><th scope="row">Sâmbătă</th><td>09:00–13:00</td></tr>
+          <tr data-days="0"><th scope="row">Duminică</th><td>Închis</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <form class="form" id="form-programare" novalidate>
+      <h3>Programare</h3>
+      <p>Mesajul se deschide gata scris în WhatsApp sau în e-mail. Site-ul nu salvează datele tale.</p>
+      <div class="fields">
+        <div class="field"><label for="f-nume">Nume</label><input id="f-nume" name="nume" autocomplete="name" required></div>
+        <div class="field"><label for="f-tel">Telefon</label><input id="f-tel" name="telefon" type="tel" autocomplete="tel" inputmode="tel" required></div>
+        <div class="field full"><label for="f-tip">Pentru ce vii?</label>
+          <select id="f-tip" name="tip"><option>Prima ședință individuală</option><option>Clasă de probă, pilates terapeutic</option><option>Kinetoterapie pentru copii</option><option>Recuperare după naștere</option><option>Mișcare pentru seniori</option><option>Masaj terapeutic</option><option>Voucher cadou</option></select>
+        </div>
+        <div class="field full"><label for="f-mesaj">Câteva cuvinte despre tine (opțional)</label><textarea id="f-mesaj" name="mesaj" placeholder="Ce te doare, de când, ce ai mai încercat"></textarea></div>
+      </div>
+      <div class="form-actions">
+        <button class="btn" type="submit" value="wa"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22z"/></svg>Trimite pe WhatsApp</button>
+        <button class="btn btn-soft" type="submit" value="email">Trimite pe e-mail</button>
+      </div>
+      <p class="fine">Datele ajung doar la mine, prin aplicația pe care o alegi. Detalii în <a href="#">politica de confidențialitate</a>.</p>
+    </form>
+  </div>
+</section>
+<iframe class="map" title="Hartă: Nume Studio, Strada Exemplu nr. 10, București" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=Bucure%C8%99ti&amp;z=13&amp;output=embed"></iframe>
+</main>
+
+<footer class="foot" data-hide-callbar>
+  <div class="wrap foot-grid">
+    <div>
+      <p><b>Nume Studio SRL</b></p>
+      <p>CUI RO00000000, Nr. Reg. Com. J40/0000/2020</p>
+      <p>Autorizație sanitară de funcționare nr. 0000/2020</p>
+      <p>Strada Exemplu nr. 10, Sector 1, București</p>
+    </div>
+    <ul>
+      <li><a href="#">Politica de confidențialitate</a></li>
+      <li><a href="#">Politica de cookie-uri</a></li>
+      <li><a href="https://anpc.ro/ce-este-sal/" target="_blank" rel="noopener">ANPC, soluționarea alternativă a litigiilor</a></li>
+    </ul>
+    <ul>
+      <li><a href="tel:+40700000000">0700 000 000</a></li>
+      <li><a href="mailto:contact@numestudio.ro">contact@numestudio.ro</a></li>
+      <li><a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a></li>
+    </ul>
+    <p class="disclaimer">Informațiile de pe acest site au rol informativ și nu înlocuiesc consultul medical. © <span data-year>2026</span> Nume Studio.</p>
+  </div>
+</footer>
+
+<div class="callbar">
+  <a class="btn" href="tel:+40700000000"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>Sună</a>
+  <a class="btn btn-soft" href="https://wa.me/40700000000" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22z"/></svg>WhatsApp</a>
+</div>
+
+<script>
+/* meniul de pe telefon, linia de sub header și secțiunea curentă în navigare */
+(function(){
+  var top=document.querySelector('.top'),btn=top.querySelector('.menu-btn'),menu=document.getElementById('meniu');
+  function setOpen(o){btn.setAttribute('aria-expanded',o?'true':'false');menu.hidden=!o;document.documentElement.classList.toggle('menu-open',o);}
+  btn.addEventListener('click',function(){setOpen(menu.hidden);});
+  menu.addEventListener('click',function(e){if(e.target.closest('a'))setOpen(false);});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape'&&!menu.hidden){setOpen(false);btn.focus();}});
+  document.addEventListener('click',function(e){if(!menu.hidden&&!top.contains(e.target))setOpen(false);});
+  var links=[].slice.call(document.querySelectorAll('.nav a')),secs=links.map(function(a){return document.querySelector(a.getAttribute('href'));}),ticking=false;
+  function update(){
+    ticking=false;
+    top.classList.toggle('scrolled',scrollY>8);
+    var i=-1;secs.forEach(function(s,k){if(s.getBoundingClientRect().top<innerHeight*.4)i=k;});
+    links.forEach(function(a,k){if(k===i)a.setAttribute('aria-current','location');else a.removeAttribute('aria-current');});
+  }
+  addEventListener('scroll',function(){if(!ticking){ticking=true;requestAnimationFrame(update);}},{passive:true});
+  update();
+})();
+
+/* orar: ziua de azi e marcată; pe telefon se vede câte o zi, aleasă din butoane (duminica arată lunea) */
+(function(){
+  var today=new Date().getDay(),days=[].slice.call(document.querySelectorAll('.day')),btns=[].slice.call(document.querySelectorAll('.days-nav button'));
+  days.forEach(function(d){if(+d.dataset.d===today)d.classList.add('today');});
+  function show(n){
+    days.forEach(function(d){d.classList.toggle('shown',d.dataset.d===n);});
+    btns.forEach(function(b){b.setAttribute('aria-pressed',b.dataset.d===n?'true':'false');});
+  }
+  btns.forEach(function(b){b.addEventListener('click',function(){show(b.dataset.d);});});
+  show(String(today===0?1:today));
+})();
+
+/* programul de azi e evidențiat în tabel (zilele sunt în data-days, 0 = duminică) */
+(function(){
+  var row=document.querySelector('[data-hours] tr[data-days*="'+new Date().getDay()+'"]');
+  if(row)row.classList.add('today');
+})();
+
+/* formularul compune mesajul și îl deschide în WhatsApp sau în e-mail; nu trimite nimic pe server */
+(function(){
+  var f=document.getElementById('form-programare');
+  f.addEventListener('submit',function(e){
+    e.preventDefault();
+    var bad=[].slice.call(f.querySelectorAll('[required]')).filter(function(i){return !i.value.trim();});
+    bad.forEach(function(i){i.setAttribute('aria-invalid','true');});
+    if(bad.length){bad[0].focus();return;}
+    var d=new FormData(f),msg='Bună ziua! Aș dori o programare.\nNume: '+d.get('nume')+'\nTelefon: '+d.get('telefon')+'\nPentru: '+d.get('tip')+(d.get('mesaj').trim()?'\nDetalii: '+d.get('mesaj').trim():'');
+    if(e.submitter&&e.submitter.value==='email')location.href='mailto:contact@numestudio.ro?subject='+encodeURIComponent('Programare')+'&body='+encodeURIComponent(msg);
+    else window.open('https://wa.me/40700000000?text='+encodeURIComponent(msg),'_blank','noopener');
+  });
+  f.addEventListener('input',function(e){e.target.removeAttribute('aria-invalid');});
+})();
+
+/* bara de jos pe telefon: apare după hero, dispare la contact și în subsol */
+(function(){
+  var bar=document.querySelector('.callbar');
+  if(!('IntersectionObserver' in window)){bar.classList.add('show');return;}
+  var seen=new Map();
+  var io=new IntersectionObserver(function(es){
+    es.forEach(function(e){seen.set(e.target,e.isIntersecting);});
+    var hide=false;seen.forEach(function(v){if(v)hide=true;});
+    bar.classList.toggle('show',!hide);
+  });
+  [document.getElementById('sus')].concat([].slice.call(document.querySelectorAll('[data-hide-callbar]'))).forEach(function(el){io.observe(el);});
+})();
+document.querySelector('[data-year]').textContent=new Date().getFullYear();
+</script>
+</body>
+</html>

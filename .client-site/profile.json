@@ -27,9 +27,11 @@
   "todoMarker": "DE CONFIRMAT",
   "requireNoindex": true,
   "publish": {
-    "repo": "MolnarMario/kinetofizio-templates",
+    "owner": "MolnarMario",
+    "folder": "clients",
     "branch": "main",
-    "baseUrl": "https://thebarbellengineer.com/kinetofizio-templates/"
+    "visibility": "private",
+    "baseUrl": "https://thebarbellengineer.com/"
   },
   "example": "kineticfit",
   "ui": {

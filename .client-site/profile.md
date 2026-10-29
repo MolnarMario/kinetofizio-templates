@@ -148,9 +148,9 @@ Write the list in Romanian on the page, and in the switcher's `client.json`:
 7. The domain's status, plus any social link you couldn't verify.
 8. The postal code, if it doesn't fit the city.
 
-## Example client: KineticFit (`kineticfit/`)
+## Example client: KineticFit
 
-`examples/kineticfit/` has the rules for all three variants, `photos.json` and `client.json`. Splitting `kineticfit/<id>/index.html` gives its head and body blocks. Rebuilding with those files reproduces the live pages byte for byte.
+The pages are live at https://thebarbellengineer.com/kineticfit/, from the repo `MolnarMario/kineticfit`, cloned locally in `clients/kineticfit/`. `examples/kineticfit/` has the rules for all three variants, `photos.json`, `client.json` and the README. Splitting `clients/kineticfit/<id>/index.html` gives its head and body blocks. Rebuilding with those files reproduces the live pages byte for byte.
 
 Lessons from that job:
 
@@ -159,8 +159,10 @@ Lessons from that job:
 - **Team names.** Two older reviews name therapists who appear in no recent photo. The site names only Erik and Brian, whose names are embroidered on their polos.
 - **Services.** The 15 services came from the shop window in a Maps photo.
 - **Website.** The domain on the Facebook cover no longer resolved, so it went on the list. The Instagram link came from a printed banner and stayed unverified.
-- **README.** The "Clinica KineticFit, Satu Mare" section of `README.md` is the model for later clients.
+- **README.** `examples/kineticfit/README.md` is the model for later clients.
 
 ## Publishing
 
-Pages publish through GitHub Pages from `main` to `https://thebarbellengineer.com/kinetofizio-templates/<slug>/`. `.nojekyll` is already in place.
+Each client gets its own repo, `MolnarMario/<slug>`, cloned in `clients/<slug>/`, which this repo ignores. GitHub Pages serves it from `main` at `https://thebarbellengineer.com/<slug>/`, because the account's user site owns that domain. Trimming the slug off a client's address leads to Mario's own site, never to this template gallery.
+
+KineticFit and FizioTerapia Plus were first published inside this repo. Their old folders here now hold only redirects to the new addresses, so links already sent keep working. Don't add client folders to this repo.

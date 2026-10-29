@@ -113,63 +113,9 @@ Toate sunt de pe Wikimedia Commons, în domeniul public sau CC0, deci se pot fol
 
 Un client nou se face cu skill-ul general `client-site` (`~/.claude/skills/client-site/SKILL.md`, pe calculatorul lui Mario): `/client-site <link Google Maps> <link Facebook>`. Ce e specific acestor șabloane (culorile fiecărei variante, pozele, ce folosește JavaScriptul, lista de confirmat pentru o clinică) e în `.client-site/profile.md`, iar `.client-site/profile.json` e pentru scripturi. KineticFit e exemplul complet, în `.client-site/examples/kineticfit/`.
 
-### Clinica KineticFit, Satu Mare
+Paginile clienților nu stau în acest repo. Fiecare client are repo-ul lui, `MolnarMario/<slug>`, publicat la `https://thebarbellengineer.com/<slug>/`, de exemplu https://thebarbellengineer.com/kineticfit/. Adresa nu trece prin `kinetofizio-templates/`, așa că un client care șterge din ea ajunge pe site-ul lui Mario, nu la șabloane. Pe calculatorul lui Mario, repo-urile clienților sunt clonate în `clients/<slug>/`, un folder pe care acest repo îl ignoră. Sursele datelor și lista de confirmat pentru fiecare client sunt în README-ul repo-ului lui.
 
-`kineticfit/` are cele trei variante adaptate pentru Clinica KineticFit (Bulevardul Vasile Lucaciu 16, Satu Mare) și o pagină pentru client, `kineticfit/index.html`, cu taburi între ele. Varianta aleasă rămâne în adresă (`#axa`, `#elan`, `#respiro`), iar butonul Telefon arată pagina într-un cadru de 390 px. Lista "De confirmat" din bara de sus spune clientului ce mai trebuie trimis.
-
-Datele vin din trei locuri, adunate în octombrie 2026:
-
-- pagina de Facebook (facebook.com/clinicakineticfit): logo, coperta, telefonul 0757 580 831, e-mailul, echipa și anunțul de angajare;
-- profilul de Google Maps: programul (luni–vineri, 12:00–20:00, doar cu programare), nota 5,0 din 17 recenzii, plata cu cardul și contactless, locurile și toaleta accesibile, pozele clinicii;
-- vitrina clinicii, care se vede în poze: lista celor 15 terapii, de la Tecar la plan alimentar.
-
-Culorile sunt luate din logo: verde #3d544e și auriu #c79e41, cu crem și negru. Axa folosește Poppins pentru titluri, ca pe coperta de Facebook. În Respiro, orarul claselor a devenit "Tehnicile, pe scurt", pentru că clinica nu ține clase, iar textul e la plural, fiindcă lucrează doi kinetoterapeuți. Pe silueta din Axa, coloana e desenată din puncte aurii, ca vertebrele din logo.
-
-Pozele cu aparatura și sala sunt pozele clinicii de pe Google Maps, făcute de un fotograf (semnătura apare în colț). Pozele cu oameni sunt de pe Facebook, la 1151 px, cât servește Facebook. Logoul e decupat de pe fundal alb din poza de profil.
-
-De confirmat cu clinica înainte de publicare:
-
-1. Prețurile. Toate sunt orientative și marcate cu `DE CONFIRMAT` în HTML.
-2. Denumirea firmei, CUI-ul, numărul de la Registrul Comerțului și autorizația sanitară. În subsol scrie acum "de completat".
-3. Numele complete, studiile și specializările lui Erik și Brian. Pe site apar doar prenumele, ca pe tricourile lor. Anunțul de angajare e de pe Facebook și poate fi vechi.
-4. Dacă 0757 580 831 are WhatsApp. Formularul și butoanele trimit acolo.
-5. Acordul autorilor pentru recenziile citate. Sunt reale, de pe Google, scurtate, cu prenumele și inițiala.
-6. Dreptul de a folosi pozele fotografului pe site.
-7. Domeniul clinicakineticfit.com, scris pe coperta de Facebook, nu mai are DNS. Trebuie reînnoit sau ales altul. Linkul de Instagram e luat de pe roll-up-ul lor și nu e verificat.
-8. Codul poștal. Google și Facebook dau 447230, dar codurile din municipiul Satu Mare încep cu 440, așa că l-am lăsat afară din datele structurate.
-
-### FizioTerapia Plus, Bistrița
-
-`fizioterapiaplus/` are cele trei variante adaptate pentru FizioTerapia Plus (Calea Moldovei 15A, 420096 Bistrița) și pagina pentru client, `fizioterapiaplus/index.html`, cu taburi între ele, la fel ca la KineticFit.
-
-Datele vin din trei locuri, adunate pe 29 octombrie 2026:
-
-- pagina de Facebook (profile.php?id=61589425088427): logo, telefonul 0751 557 283, e-mailul, echipa, serviciile din postări și afișe, ședințele de grup;
-- profilul de Google Maps: programul (luni–vineri, 08:00–19:00, doar cu programare), nota 5,0 din 33 recenzii, plata cu cardul și NFC, accesul pentru scaun cu rotile, parcarea gratuită și cele două poze ale clinicii;
-- vitrina clinicii, care se vede în poza de pe Maps: ortopedie, fizioterapie, kinetoterapie, masaj.
-
-Clinica e nouă (primele postări sunt din iulie 2026) și are un medic ortoped în aceeași clădire, Dr. Kerekes László. Toate trei variantele pornesc de la asta: diagnosticul și recuperarea în același loc. Serviciile sunt cele de pe vitrină și de pe afișele lor: consult ortopedic, infiltrații cu acid hialuronic și PRP, pansamente și scoaterea firelor, terapie laser, aparat CPM, kinetoterapie individuală și de grup, recuperare postoperatorie și sportivă, masaj.
-
-Culorile sunt luate din logo: verde #0e924b și gri #637070. Verdele din logo are doar 4:1 contrast cu alb, așa că butoanele și textul folosesc o nuanță mai închisă, #0b7d3f (5,2:1). Axa folosește Saira pentru titluri, cea mai apropiată de literele pătrățoase din logo. Fontul logoului nu e unul din Google Fonts. În toate variantele, numele are "Fizio" gri și "Terapia" verde, ca pe firmă. În Respiro, cărămida de pe fațadă a dat culoarea caldă (#f0dccf), iar secțiunea de recenzii stă pe fond închis, pentru contrast.
-
-Ce s-a schimbat față de șabloane:
-
-- Elan păstrează etapele pentru ligamentul încrucișat, pentru că clinica postează exact astfel de cazuri. Lista de sporturi a devenit o listă de accidentări, fiindcă nu avem surse despre sporturi anume.
-- Respiro nu are orar: clinica face ședințe de grup, dar programul lor nu apare nicăieri. Orarul a devenit "Tehnicile, pe scurt", iar caseta de voucher a devenit una pentru ședințele de grup, cu link spre WhatsApp. Textul e la plural și semnat de Attila, Cosmin și Dr. Kerekes.
-- Axa nu are poză la intrare (KineticFit avea), pentru că avem doar trei poze cu clădirea.
-
-Pozele sunt toate ale clinicii: sala și clădirea ziua sunt pozele proprietarului de pe Google Maps, clădirea noaptea și portretul Dr. Kerekes sunt de pe Facebook (portretul e decupat dintr-un afiș, 419 px). Nu am folosit nicio poză stoc: poza cu aparatura din șablonul Axa arată o bandă antigravitațională pe care clinica nu o are. Poza cu Adi Crișan în sală am lăsat-o deoparte, pentru că ar sugera o recomandare de la el.
-
-De confirmat cu clinica înainte de publicare:
-
-1. Prețurile. Toate sunt orientative și marcate cu `DE CONFIRMAT` în HTML. La infiltrații scrie "la consult".
-2. Denumirea firmei, CUI-ul, numărul de la Registrul Comerțului și autorizația sanitară. Nu am găsit firma pe termene.ro sau listafirme.ro după nume sau după adresă. În subsol scrie "de completat".
-3. Echipa. Mathe Attila (fizioterapeut) și Dr. Kerekes László apar pe Facebook, pe afișe și pe ecuson. Isai Cosmin (kinetoterapeut) apare doar într-o recenzie de acum o lună, la care clinica a răspuns.
-4. Zilele și orele ședințelor de grup.
-5. Dacă 0751 557 283 are WhatsApp. Formularul și butoanele trimit acolo.
-6. Acordul autorilor pentru recenziile citate. Sunt reale, de pe Google, cu prenumele și inițiala. Singurele modificări sunt diacriticele, "Mi am" scris "Mi-am" și un emoji scos.
-7. Acordul persoanelor care se recunosc în poza din sală.
-8. Domeniul. Clinica nu are site, iar pe Maps apare doar Facebook. `fizioterapiaplus.ro` nu are DNS acum și e folosit în `canonical` și în datele structurate, ca propunere.
+Primii doi clienți, KineticFit și FizioTerapia Plus, au fost publicați la început aici. Folderele `kineticfit/` și `fizioterapiaplus/` au rămas doar cu pagini care trimit la adresa nouă, ca linkurile deja trimise să meargă în continuare.
 
 ## Publicare
 

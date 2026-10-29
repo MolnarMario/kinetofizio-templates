@@ -111,6 +111,8 @@ Toate sunt de pe Wikimedia Commons, în domeniul public sau CC0, deci se pot fol
 
 ## Clienți
 
+Pașii pentru un client nou, cu scripturile lor, sunt în `.claude/skills/kineto-client/SKILL.md`. Într-o sesiune Claude Code deschisă în acest folder pornești cu `/kineto-client <link Google Maps> <link Facebook>`. Orice alt agent poate primi fișierul ca instrucțiuni.
+
 ### Clinica KineticFit, Satu Mare
 
 `kineticfit/` are cele trei variante adaptate pentru Clinica KineticFit (Bulevardul Vasile Lucaciu 16, Satu Mare) și o pagină pentru client, `kineticfit/index.html`, cu taburi între ele. Varianta aleasă rămâne în adresă (`#axa`, `#elan`, `#respiro`), iar butonul Telefon arată pagina într-un cadru de 390 px. Lista "De confirmat" din bara de sus spune clientului ce mai trebuie trimis.

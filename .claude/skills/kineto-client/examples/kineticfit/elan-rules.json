@@ -1,0 +1,98 @@
+{
+  "exact": [
+    [
+      "--bg:#f1f3f7;",
+      "--bg:#f2f1ec;"
+    ],
+    [
+      "--navy:#0a1630;",
+      "--navy:#131b18;"
+    ],
+    [
+      "--navy-2:#13234a;",
+      "--navy-2:#1f2a26;"
+    ],
+    [
+      "--ink:#0a1630;",
+      "--ink:#131b18;"
+    ],
+    [
+      "--ink-2:#4a5674;",
+      "--ink-2:#55605b;"
+    ],
+    [
+      "--line:#d8dde8;",
+      "--line:#dcdcd4;"
+    ],
+    [
+      "--blue:#1c42e0;",
+      "--blue:#3d544e;"
+    ],
+    [
+      "--blue-d:#1533b8;",
+      "--blue-d:#2d3f3a;"
+    ],
+    [
+      "--lime:#d4f25a;",
+      "--lime:#d6ae55;"
+    ],
+    [
+      "--on-dark:#c5cde0;",
+      "--on-dark:#c3c9c4;"
+    ],
+    [
+      ".brand svg{flex:none;width:30px;height:30px}",
+      ".brand img{flex:none;width:auto;height:38px}"
+    ],
+    [
+      "object-fit:cover;object-position:40% 50%;background:var(--navy-2)}",
+      "object-fit:cover;object-position:30% 40%;background:var(--navy-2)}"
+    ],
+    [
+      ".phases button:hover:not([aria-selected=\"true\"]){background:#1b2f5e}",
+      ".phases button:hover:not([aria-selected=\"true\"]){background:#2a3732}"
+    ],
+    [
+      ".phase .gate li{border-color:rgba(10,22,48,.18)}",
+      ".phase .gate li{border-color:rgba(19,27,24,.18)}"
+    ],
+    [
+      ".foot{background:#060e20;",
+      ".foot{background:#0c1210;"
+    ],
+    [
+      ".foot b{color:#fff}",
+      ".foot b{color:#fff}\n.foot-logo{width:auto;height:64px;margin:0 0 14px}"
+    ],
+    [
+      "object-fit:cover;object-position:60% 40%}",
+      "object-fit:cover;object-position:50% 30%}"
+    ],
+    [
+      ".g-score .stars{color:#e2a72e;",
+      ".g-score .stars{color:#c79e41;"
+    ],
+    [
+      ".brand b{font-stretch:72%;font-weight:800;font-size:1.45rem;text-transform:uppercase;letter-spacing:.01em;line-height:1}",
+      ".brand b{font-stretch:90%;font-weight:700;font-size:1.4rem;letter-spacing:-.005em;line-height:1}"
+    ]
+  ],
+  "tokens": [
+    [
+      "contact@numestudio.ro",
+      "clinicakineticfit@gmail.com"
+    ],
+    [
+      "wa.me/40700000000",
+      "wa.me/40757580831"
+    ],
+    [
+      "+40700000000",
+      "+40757580831"
+    ],
+    [
+      "0700 000 000",
+      "0757 580 831"
+    ]
+  ]
+}

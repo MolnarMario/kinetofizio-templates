@@ -1,0 +1,134 @@
+{
+  "exact": [
+    [
+      "--bg:#f3f6f6;",
+      "--bg:#f5f4f0;"
+    ],
+    [
+      "--ice:#e3edef;",
+      "--ice:#eaede7;"
+    ],
+    [
+      "--ink:#0b2a35;",
+      "--ink:#1f2e29;"
+    ],
+    [
+      "--ink-2:#4a6470;",
+      "--ink-2:#56645e;"
+    ],
+    [
+      "--line:#d2dee1;",
+      "--line:#dcdfd6;"
+    ],
+    [
+      "--teal:#0a776c;",
+      "--teal:#3d544e;"
+    ],
+    [
+      "--teal-d:#075f56;",
+      "--teal-d:#2d3f3a;"
+    ],
+    [
+      "--aqua:#a6e3d5;",
+      "--aqua:#dcc27a;\n  --gold:#c79e41;\n  --gold-d:#94702a;\n  --head:\"Poppins\",\"Hanken Grotesk\",system-ui,sans-serif;"
+    ],
+    [
+      "h1,h2,h3,h4{margin:0;font-weight:600;line-height:1.08;letter-spacing:-.025em;text-wrap:balance}",
+      "h1,h2,h3,h4{margin:0;font-family:var(--head);font-weight:600;line-height:1.12;letter-spacing:-.02em;text-wrap:balance}"
+    ],
+    [
+      ".brand svg{flex:none;width:36px;height:36px}",
+      ".brand img{flex:none;width:auto;height:46px}"
+    ],
+    [
+      ".brand b{display:block;font-size:1.15rem;font-weight:700;letter-spacing:-.015em;line-height:1.1}",
+      ".brand b{display:block;font-family:var(--head);font-size:1.2rem;font-weight:600;letter-spacing:-.01em;line-height:1.1;color:var(--teal)}"
+    ],
+    [
+      "box-shadow:0 30px 40px -30px rgba(11,42,53,.4)",
+      "box-shadow:0 30px 40px -30px rgba(31,46,41,.35)"
+    ],
+    [
+      ".hero h1{font-size:clamp(2.6rem,1.4rem + 4.6vw,4.8rem);line-height:.98;letter-spacing:-.04em;max-width:11ch}",
+      ".hero h1{font-size:clamp(2.5rem,1.3rem + 4.2vw,4.4rem);line-height:1.04;letter-spacing:-.035em;max-width:11ch}"
+    ],
+    [
+      ".hero h1 em{font-style:normal;color:var(--teal)}",
+      ".hero h1 em{font-style:normal;color:var(--gold-d)}"
+    ],
+    [
+      "color:#e2a72e;vertical-align:.05em}",
+      "color:var(--gold);vertical-align:.05em}"
+    ],
+    [
+      "object-fit:cover;object-position:60% 50%;border-radius:var(--c)",
+      "object-fit:cover;object-position:50% 55%;border-radius:var(--c)"
+    ],
+    [
+      "overflow:visible;color:var(--teal);pointer-events:none}",
+      "overflow:visible;color:var(--gold);pointer-events:none}"
+    ],
+    [
+      "box-shadow:0 22px 40px -24px rgba(11,42,53,.45)",
+      "box-shadow:0 22px 40px -24px rgba(31,46,41,.4)"
+    ],
+    [
+      "box-shadow:0 0 0 6px rgba(10,119,108,.16)",
+      "box-shadow:0 0 0 6px rgba(61,84,78,.16)"
+    ],
+    [
+      ".stars{display:flex;gap:3px;color:#e2a72e}",
+      ".stars{display:flex;gap:3px;color:var(--gold)}"
+    ],
+    [
+      "letter-spacing:-.03em;color:var(--teal);line-height:1}",
+      "letter-spacing:-.03em;color:var(--gold-d);line-height:1}"
+    ],
+    [
+      ".book{background:var(--ink);color:#e9f1f2}",
+      ".book{background:var(--ink);color:#eef0ea}"
+    ],
+    [
+      "color:#a9bfc5;font-size:1.1rem",
+      "color:#b9c4bd;font-size:1.1rem"
+    ],
+    [
+      "border:1px solid #b9cbd0;",
+      "border:1px solid #c4cbc3;"
+    ],
+    [
+      ".map{display:block;",
+      ".door{margin:32px 0 0;max-width:26rem}\n.door img{width:100%;aspect-ratio:3/2;object-fit:cover;border-radius:var(--r);background:#2c3b36}\n.door figcaption{margin-top:8px;color:#b9c4bd;font-size:.88rem}\n.map{display:block;"
+    ],
+    [
+      ".foot b{color:var(--ink)}",
+      ".foot b{color:var(--ink)}\n.foot-logo{width:92px;height:auto;margin:0 0 14px}"
+    ],
+    [
+      "'Închis. Ne poți scrie oricând pe WhatsApp.'",
+      "'Închis azi. Lucrăm luni–vineri, 12:00–20:00.'"
+    ],
+    [
+      ".brand small{display:block;font-size:.8rem;color:var(--ink-2);line-height:1.3}",
+      ".brand small{display:block;font-size:.8rem;color:var(--ink-2);line-height:1.3}\n@media (max-width:420px){.brand small{font-size:.72rem;white-space:nowrap}}"
+    ]
+  ],
+  "tokens": [
+    [
+      "contact@numestudio.ro",
+      "clinicakineticfit@gmail.com"
+    ],
+    [
+      "wa.me/40700000000",
+      "wa.me/40757580831"
+    ],
+    [
+      "+40700000000",
+      "+40757580831"
+    ],
+    [
+      "0700 000 000",
+      "0757 580 831"
+    ]
+  ]
+}

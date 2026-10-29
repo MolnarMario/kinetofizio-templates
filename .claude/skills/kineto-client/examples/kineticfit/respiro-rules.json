@@ -1,0 +1,106 @@
+{
+  "exact": [
+    [
+      "--bg:#f6f1e8;",
+      "--bg:#f7f3ea;"
+    ],
+    [
+      "--sand:#ede4d4;",
+      "--sand:#efe7d6;"
+    ],
+    [
+      "--ink:#1f2d26;",
+      "--ink:#22302b;"
+    ],
+    [
+      "--ink-2:#5a655e;",
+      "--ink-2:#5b6660;"
+    ],
+    [
+      "--line:#ddd3c2;",
+      "--line:#ddd5c4;"
+    ],
+    [
+      "--green:#2f5d4a;",
+      "--green:#3d544e;"
+    ],
+    [
+      "--green-d:#234837;",
+      "--green-d:#2d3f3a;"
+    ],
+    [
+      "--sage:#a8c1af;",
+      "--sage:#c8a659;"
+    ],
+    [
+      "--sage-bg:#dde7dc;",
+      "--sage-bg:#e4e8e1;"
+    ],
+    [
+      "--clay:#ead6c7;",
+      "--clay:#efdfb9;"
+    ],
+    [
+      ".brand svg{flex:none;width:38px;height:38px}",
+      ".brand img{flex:none;width:auto;height:46px}"
+    ],
+    [
+      "object-fit:cover;object-position:50% 65%;border-radius:var(--r) var(--r) var(--r) 120px",
+      "object-fit:cover;object-position:50% 40%;border-radius:var(--r) var(--r) var(--r) 120px"
+    ],
+    [
+      "border-radius:var(--r) var(--r) var(--r) 80px;object-position:50% 70%}",
+      "border-radius:var(--r) var(--r) var(--r) 80px;object-position:50% 38%}"
+    ],
+    [
+      "#c9d8cd",
+      "#cfd8d2"
+    ],
+    [
+      ".gift p{margin:8px 0 0;color:#5b4c42;",
+      ".gift p{margin:8px 0 0;color:#5d5034;"
+    ],
+    [
+      "stroke='%232f5d4a'",
+      "stroke='%233d544e'"
+    ],
+    [
+      "/* orar */",
+      "/* tehnicile, pe scurt */"
+    ],
+    [
+      ".days-nav{display:none}\n.week{display:grid;gap:14px}\n.day{padding:22px 20px;background:var(--surface);border-radius:18px}\n.day h3{font-size:1.35rem;margin-bottom:10px}\n.day ul{list-style:none;margin:0;padding:0}\n.day li{display:grid;grid-template-columns:3.4rem 1fr;gap:10px;padding:10px 0;border-top:1px solid var(--line);font-size:.95rem;line-height:1.4}\n.day time{font-weight:700;font-variant-numeric:tabular-nums}\n.day li span small{display:block;color:var(--ink-2);font-size:.85rem}\n.day.today{box-shadow:inset 0 0 0 2px var(--green)}\n.day.today h3::after{content:\"azi\";margin-left:10px;font:600 .8rem var(--sans);color:var(--green);vertical-align:.2em}\n.sched-note{margin:24px 0 0;color:var(--ink-2);font-size:.95rem;max-width:44rem}\n@media (min-width:1000px){.week{grid-template-columns:repeat(6,minmax(0,1fr));gap:10px}.day{padding:20px 16px}.day li{grid-template-columns:1fr;gap:2px}}\n@media (max-width:999px){\n  .js .days-nav{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:6px;margin-bottom:12px}\n  .days-nav button{min-height:46px;padding:0;border:1px solid transparent;border-radius:12px;background:var(--surface);color:var(--ink);font:600 .95rem var(--sans);cursor:pointer}\n  .days-nav button[aria-pressed=\"true\"]{background:var(--green);color:#fff}\n  .js .day:not(.shown){display:none}\n}",
+      ".glos{display:grid;gap:14px}\n.glos div{padding:24px 22px;background:var(--surface);border-radius:18px}\n.glos h3{font-size:1.4rem;margin-bottom:8px}\n.glos p{margin:0;color:var(--ink-2);font-size:.98rem}\n.sched-note{margin:24px 0 0;color:var(--ink-2);font-size:.95rem;max-width:44rem}\n@media (min-width:720px){.glos{grid-template-columns:1fr 1fr}}\n@media (min-width:1040px){.glos{grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}}"
+    ],
+    [
+      ".foot b{color:var(--ink)}",
+      ".foot b{color:var(--ink)}\n.foot-logo{width:92px;height:auto;margin:0 0 14px}"
+    ],
+    [
+      "/* orar: ziua de azi e marcată; pe telefon se vede câte o zi, aleasă din butoane (duminica arată lunea) */\n(function(){\n  var today=new Date().getDay(),days=[].slice.call(document.querySelectorAll('.day')),btns=[].slice.call(document.querySelectorAll('.days-nav button'));\n  days.forEach(function(d){if(+d.dataset.d===today)d.classList.add('today');});\n  function show(n){\n    days.forEach(function(d){d.classList.toggle('shown',d.dataset.d===n);});\n    btns.forEach(function(b){b.setAttribute('aria-pressed',b.dataset.d===n?'true':'false');});\n  }\n  btns.forEach(function(b){b.addEventListener('click',function(){show(b.dataset.d);});});\n  show(String(today===0?1:today));\n})();\n\n",
+      ""
+    ],
+    [
+      ".brand b{display:block;font:italic 500 1.45rem/1 var(--serif);letter-spacing:-.01em}",
+      ".brand b{display:block;font:700 1.3rem/1 var(--sans);letter-spacing:-.015em;color:var(--green)}"
+    ]
+  ],
+  "tokens": [
+    [
+      "contact@numestudio.ro",
+      "clinicakineticfit@gmail.com"
+    ],
+    [
+      "wa.me/40700000000",
+      "wa.me/40757580831"
+    ],
+    [
+      "+40700000000",
+      "+40757580831"
+    ],
+    [
+      "0700 000 000",
+      "0757 580 831"
+    ]
+  ]
+}

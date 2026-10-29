@@ -1,0 +1,14 @@
+{
+  "jobs": [
+    { "name": "masa-ventuze", "src": "raw/m09.jpg", "ratio": "4/5", "x": 0.5, "y": 0.62 },
+    { "name": "mobilizare-cervicala", "src": "fb/cervical.png", "ratio": "3/2", "x": 0.45, "y": 0.5 },
+    { "name": "electroterapie", "src": "raw/m03.jpg", "ratio": "3/2" },
+    { "name": "echipa", "src": "fb/echipa.png", "ratio": "3/4", "x": 0.5, "y": 0.3 },
+    { "name": "intrare", "src": "raw/m02.jpg", "ratio": "3/2" },
+    { "name": "ajustare", "src": "fb/chiro.png" },
+    { "name": "bicicleta", "src": "raw/m15.jpg", "ratio": "4/5", "x": 0.5, "y": 0.55 },
+    { "name": "sala-chiro", "src": "raw/m13.jpg", "ratio": "4/5", "x": 0.5, "y": 0.6 },
+    { "name": "ventuze", "src": "raw/m06.jpg", "ratio": "16/9" }
+  ],
+  "og": "fb/coperta.png"
+}

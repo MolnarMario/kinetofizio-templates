@@ -1,0 +1,671 @@
+<!doctype html>
+<html lang="ro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<!-- Demo pe GitHub Pages: scoate rândul de mai jos când site-ul trece pe domeniul clientului -->
+<meta name="robots" content="noindex">
+<!--
+  Varianta "Respiro" pentru FizioTerapia Plus, Bistrița.
+  Datele vin de pe pagina de Facebook, de pe profilul Google Maps și de pe vitrina clinicii (octombrie 2026).
+  De confirmat cu clinica: prețurile, datele firmei din subsol, WhatsApp pe 0751 557 283,
+  echipa, programul ședințelor de grup, domeniul fizioterapiaplus.ro și acordul autorilor pentru recenziile citate.
+-->
+<title>FizioTerapia Plus, centru de recuperare în Bistrița</title>
+<meta name="description" content="Medic ortoped, fizioterapie și kinetoterapie în aceeași clădire, pe Calea Moldovei 15A, Bistrița. Ședințe individuale și de grup. Programări: 0751 557 283.">
+<meta name="theme-color" content="#f7f5ef">
+<link rel="canonical" href="https://fizioterapiaplus.ro/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://fizioterapiaplus.ro/">
+<meta property="og:locale" content="ro_RO">
+<meta property="og:title" content="FizioTerapia Plus, recuperarea pas cu pas">
+<meta property="og:description" content="Consult ortopedic, fizioterapie și kinetoterapie în Bistrița. Programări la 0751 557 283.">
+<meta property="og:image" content="https://fizioterapiaplus.ro/img/og.jpg">
+<link rel="icon" type="image/png" href="img/favicon.png">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="image" href="img/sala-800.webp" imagesrcset="img/sala-800.webp 800w, img/sala-1079.webp 1079w" imagesizes="(min-width: 960px) 40vw, 100vw" fetchpriority="high">
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400..700&family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400..500&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Physiotherapy",
+  "@id": "https://fizioterapiaplus.ro/#clinica",
+  "name": "FizioTerapia Plus",
+  "url": "https://fizioterapiaplus.ro/",
+  "image": "https://fizioterapiaplus.ro/img/og.jpg",
+  "logo": "https://fizioterapiaplus.ro/img/logo.png",
+  "telephone": "+40751557283",
+  "email": "fizioterapiaplus@gmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Calea Moldovei 15A",
+    "addressLocality": "Bistrița",
+    "postalCode": "420096",
+    "addressRegion": "Bistrița-Năsăud",
+    "addressCountry": "RO"
+  },
+  "geo": {"@type": "GeoCoordinates", "latitude": 47.1454175, "longitude": 24.5093687},
+  "openingHoursSpecification": [
+    {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "08:00", "closes": "19:00"}
+  ],
+  "sameAs": ["https://www.facebook.com/profile.php?id=61589425088427"],
+  "areaServed": "Bistrița"
+}
+</script>
+<style>
+:root{
+  --bg:#f7f5ef;
+  --sand:#ece6da;
+  --surface:#fffdf8;
+  --ink:#1b2822;
+  --ink-2:#58635d;
+  --line:#dcd6c9;
+  --green:#0b7d3f;
+  --green-d:#0a6a35;
+  --sage:#8fcfa7;
+  --sage-bg:#e2efe6;
+  --clay:#f0dccf;
+  --serif:"Newsreader",Georgia,"Times New Roman",serif;
+  --sans:"Figtree",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --wrap:1160px;
+  --gut:clamp(16px,4vw,40px);
+  --r:22px;
+}
+*,*::before,*::after{box-sizing:border-box}
+[hidden]{display:none!important}
+html{-webkit-text-size-adjust:100%;-webkit-tap-highlight-color:transparent;scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 1.0625rem/1.65 var(--sans);-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit}
+h1,h2,h3{margin:0;font-family:var(--serif);font-weight:400;line-height:1.1;letter-spacing:-.015em;text-wrap:balance}
+h1 em,h2 em{font-style:italic;color:var(--green)}
+p{margin:0 0 1em;text-wrap:pretty}
+.wrap{max-width:var(--wrap);margin:0 auto;padding:0 max(var(--gut),env(safe-area-inset-right)) 0 max(var(--gut),env(safe-area-inset-left))}
+main>section{padding:clamp(64px,8vw,116px) 0}
+[id]{scroll-margin-top:76px}
+.skip{position:absolute;left:-999px;top:0;z-index:60;background:var(--green);color:#fff;padding:10px 14px}
+.skip:focus{left:8px}
+:focus-visible{outline:2px solid var(--green);outline-offset:3px}
+.sec-head{max-width:40rem;margin-bottom:clamp(36px,4.5vw,60px)}
+.sec-head.center{margin-left:auto;margin-right:auto;text-align:center}
+.sec-head h2{font-size:clamp(2.1rem,1.4rem + 2.4vw,3.3rem)}
+.sec-head p{margin:18px 0 0;color:var(--ink-2);font-size:1.12rem}
+/* linia de respirație: un val subțire, folosit ca separator */
+.wave{display:block;width:100%;height:24px;color:var(--sage)}
+.wave path{vector-effect:non-scaling-stroke}
+
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:52px;padding:0 26px;border:0;border-radius:14px;background:var(--green);color:#fff;font:600 1rem/1 var(--sans);text-decoration:none;cursor:pointer;transition:background .15s,color .15s,box-shadow .15s}
+.btn:hover{background:var(--green-d)}
+.btn svg{flex:none;width:18px;height:18px}
+.btn-soft{background:var(--surface);color:var(--ink);box-shadow:inset 0 0 0 1px var(--line)}
+.btn-soft:hover{background:var(--sand)}
+.ul{font-weight:600;color:var(--green);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:5px}
+.ul:hover{text-decoration-thickness:2px}
+
+/* header */
+.top{position:sticky;top:0;z-index:40;background:var(--bg);border-bottom:1px solid transparent;transition:border-color .2s}
+.top.scrolled{border-bottom-color:var(--line)}
+.top .wrap{display:flex;align-items:center;gap:32px;min-height:74px}
+.brand{display:flex;align-items:center;gap:12px;margin-right:auto;text-decoration:none}
+.brand img{flex:none;width:auto;height:44px}
+.brand b{display:block;font:700 1.3rem/1 var(--sans);letter-spacing:-.015em;color:var(--green)}
+.brand b span{color:#637070}
+.brand small{display:block;margin-top:3px;font-size:.8rem;color:var(--ink-2);line-height:1.2}
+.nav{display:none;gap:28px;font-size:.97rem}
+.nav a{color:var(--ink-2);text-decoration:none}
+.nav a:hover{color:var(--ink)}
+.nav a[aria-current]{color:var(--green);text-decoration:underline;text-underline-offset:6px;text-decoration-thickness:1px}
+.top .btn{display:none;min-height:44px;padding:0 20px;font-size:.95rem;border-radius:12px}
+.menu-btn{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 16px;border:1px solid var(--line);border-radius:12px;background:var(--surface);color:var(--ink);font:600 .95rem var(--sans);cursor:pointer}
+.menu-btn svg{width:18px;height:18px}
+.menu-btn[aria-expanded="true"]{background:var(--green);border-color:var(--green);color:#fff}
+.menu{position:absolute;left:0;right:0;top:100%;max-height:calc(100dvh - 74px);overflow-y:auto;background:var(--bg);border-bottom:1px solid var(--line);box-shadow:0 30px 40px -30px rgba(31,45,38,.35);padding:4px max(var(--gut),env(safe-area-inset-right)) 22px max(var(--gut),env(safe-area-inset-left))}
+.menu a:not(.btn){display:flex;align-items:center;min-height:54px;border-bottom:1px solid var(--line);font:400 1.4rem var(--serif);text-decoration:none}
+.menu .btn{display:flex;width:100%;margin-top:18px}
+@media (max-width:420px){.brand small{font-size:.72rem;white-space:nowrap}.brand b{font-size:1.3rem}}
+@media (min-width:1080px){
+  .nav{display:flex}
+  .top .btn{display:inline-flex}
+  .menu-btn,.menu{display:none!important}
+}
+
+/* hero */
+.hero{position:relative;isolation:isolate;padding:clamp(28px,4vw,64px) 0 clamp(56px,7vw,96px);overflow:hidden}
+.hero-grid{display:grid;gap:44px}
+.hero-place{margin-bottom:22px;color:var(--ink-2);font-size:.98rem}
+.hero h1{font-size:clamp(2.7rem,1.5rem + 4.6vw,5rem);line-height:1.02;letter-spacing:-.025em;max-width:12ch}
+.lede{max-width:33rem;margin:26px 0 34px;color:var(--ink-2);font-size:clamp(1.1rem,1rem + .35vw,1.25rem)}
+.cta-row{display:flex;flex-wrap:wrap;align-items:center;gap:14px 26px}
+.facts{display:flex;flex-wrap:wrap;gap:10px 28px;margin:44px 0 0;padding:0;list-style:none;color:var(--ink-2);font-size:.95rem}
+.facts li{display:flex;align-items:center;gap:10px}
+.facts svg{flex:none;width:20px;height:20px;color:var(--green)}
+.hero-media{position:relative;margin:0}
+.hero-media img{width:100%;aspect-ratio:3/4;object-fit:cover;object-position:50% 45%;border-radius:var(--r) var(--r) var(--r) 120px;background:var(--sand)}
+.hero-note{position:absolute;right:-12px;bottom:36px;max-width:250px;padding:18px 20px;background:var(--surface);border-radius:18px;box-shadow:0 24px 50px -28px rgba(31,45,38,.5)}
+.hero-note b{display:block;font:500 1.25rem/1.2 var(--serif)}
+.hero-note span{display:block;margin-top:4px;color:var(--ink-2);font-size:.92rem;line-height:1.45}
+.hero .wave{position:absolute;left:0;right:0;bottom:26px;height:44px;z-index:-1;opacity:.8}
+@media (max-width:959px){
+  .hero-media img{aspect-ratio:4/3;border-radius:var(--r) var(--r) var(--r) 80px;object-position:50% 25%}
+  .hero-note{right:12px;bottom:-24px}
+  .hero-media{margin-bottom:24px}
+}
+@media (min-width:960px){
+  .hero-grid{grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);align-items:center;gap:72px}
+}
+
+/* despre */
+.about{background:var(--surface)}
+.about-grid{display:grid;gap:40px}
+.about figure{margin:0;position:relative}
+.about img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:50% 25%;border-radius:var(--r);background:var(--sand)}
+.about figcaption{margin-top:12px;color:var(--ink-2);font-size:.9rem}
+.letter h2{font-size:clamp(2rem,1.4rem + 2vw,3rem);margin-bottom:24px}
+.letter p{font-family:var(--serif);font-size:clamp(1.15rem,1.05rem + .35vw,1.32rem);line-height:1.6;max-width:34rem}
+.sign{margin-top:28px;padding-top:20px;border-top:1px solid var(--line);font-size:.97rem;color:var(--ink-2)}
+.sign b{display:block;font:italic 500 1.5rem/1.2 var(--serif);color:var(--ink)}
+.creds{list-style:none;margin:24px 0 0;padding:0;display:grid;gap:8px;font-size:.95rem;color:var(--ink-2)}
+.creds li{display:flex;gap:10px}
+.creds svg{flex:none;width:18px;height:18px;margin-top:3px;color:var(--green)}
+@media (min-width:900px){.about-grid{grid-template-columns:minmax(0,5fr) minmax(0,6fr);gap:80px;align-items:center}}
+
+/* servicii */
+.svc{list-style:none;margin:0;padding:0;display:grid;gap:14px}
+.svc li{display:grid;grid-template-columns:52px minmax(0,1fr);gap:4px 18px;padding:26px;background:var(--surface);border-radius:var(--r)}
+.svc .ic{grid-row:span 3;display:grid;place-items:center;width:52px;height:52px;border-radius:16px;background:var(--sage-bg);color:var(--green)}
+.svc .ic svg{width:26px;height:26px}
+.svc h3{font-size:1.5rem;line-height:1.2}
+.svc p{margin:6px 0 0;color:var(--ink-2);font-size:.98rem}
+.svc small{display:block;margin-top:10px;font-size:.88rem;font-weight:600;color:var(--green)}
+@media (min-width:720px){.svc{grid-template-columns:1fr 1fr}}
+@media (min-width:1040px){
+  .svc{grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+  .svc li{grid-template-columns:1fr;padding:30px 28px}
+  .svc .ic{grid-row:auto;margin-bottom:20px}
+}
+
+/* tehnicile, pe scurt */
+.sched{background:var(--sage-bg)}
+.sched-top{display:grid;gap:28px;margin-bottom:36px}
+.sched-top img{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:var(--r)}
+.sched-top .sec-head{margin-bottom:0}
+@media (min-width:900px){.sched-top{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:64px;align-items:end}}
+.glos{display:grid;gap:14px}
+.glos div{padding:24px 22px;background:var(--surface);border-radius:18px}
+.glos h3{font-size:1.4rem;margin-bottom:8px}
+.glos p{margin:0;color:var(--ink-2);font-size:.98rem}
+.sched-note{margin:24px 0 0;color:var(--ink-2);font-size:.95rem;max-width:44rem}
+@media (min-width:720px){.glos{grid-template-columns:1fr 1fr}}
+@media (min-width:1040px){.glos{grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}}
+
+/* prima ședință */
+.first-steps{list-style:none;margin:0;padding:0;display:grid;gap:36px;counter-reset:s}
+.first-steps li{counter-increment:s;position:relative;padding-left:72px}
+.first-steps li::before{content:counter(s);position:absolute;left:0;top:-4px;display:grid;place-items:center;width:52px;height:52px;border-radius:50%;background:var(--clay);font:italic 500 1.6rem/1 var(--serif);color:var(--ink)}
+.first-steps h3{font-size:1.5rem}
+.first-steps p{margin:8px 0 0;color:var(--ink-2)}
+.steps-wave{display:none}
+@media (min-width:900px){
+  .first-steps{grid-template-columns:repeat(3,minmax(0,1fr));gap:48px;position:relative}
+  .first-steps li{padding:84px 0 0}
+  .first-steps li::before{top:0;width:60px;height:60px}
+  .steps-wave{display:block;position:absolute;left:60px;right:0;top:12px;width:calc(100% - 60px);height:36px;z-index:-1}
+}
+.first-wrap{position:relative;isolation:isolate}
+
+/* tarife */
+.prices{background:var(--surface)}
+.price-grid{display:grid;gap:24px}
+.pcol{padding:clamp(24px,3vw,36px);background:var(--bg);border-radius:var(--r)}
+.pcol h3{font-size:1.7rem;margin-bottom:6px}
+.pcol>p{margin:0 0 18px;color:var(--ink-2);font-size:.97rem}
+.pcol dl{margin:0}
+.pcol dl div{display:flex;justify-content:space-between;align-items:baseline;gap:18px;padding:14px 0;border-top:1px solid var(--line)}
+.pcol dt small{display:block;color:var(--ink-2);font-size:.86rem}
+.pcol dd{margin:0;font:500 1.3rem/1 var(--serif);white-space:nowrap}
+.gift{display:grid;gap:20px;align-items:center;padding:clamp(24px,3vw,36px);background:var(--clay);border-radius:var(--r)}
+.gift h3{font-size:clamp(1.6rem,1.3rem + 1vw,2.1rem)}
+.gift p{margin:8px 0 0;color:#5c463a;max-width:34rem}
+@media (min-width:860px){
+  .price-grid{grid-template-columns:1fr 1fr}
+  .gift{grid-column:1/-1;grid-template-columns:auto 1fr auto;gap:32px}
+}
+.gift svg.g{width:56px;height:56px;color:var(--ink)}
+
+/* sfaturi */
+.tips-grid{display:grid;gap:40px}
+.tips-grid figure{margin:0}
+.tips-grid img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:var(--r)}
+.tips{list-style:none;margin:0;padding:0;border-top:1px solid var(--ink)}
+.tips li{padding:22px 0;border-bottom:1px solid var(--line)}
+.tips h3{display:flex;justify-content:space-between;gap:16px;align-items:baseline;font-size:1.4rem}
+.tips h3 span{font:600 .85rem var(--sans);color:var(--green);white-space:nowrap}
+.tips p{margin:8px 0 0;color:var(--ink-2)}
+.tips-note{margin:18px 0 0;font-size:.9rem;color:var(--ink-2)}
+@media (min-width:900px){.tips-grid{grid-template-columns:minmax(0,5fr) minmax(0,6fr);gap:72px;align-items:center}}
+
+/* recenzii */
+.rev{background:var(--ink);color:#f3efe6}
+.rev .sec-head h2{color:#fff}
+.rev .sec-head h2 em{color:var(--sage)}
+.rev .sec-head p{color:#c6dccd}
+.quotes{display:grid;gap:18px}
+.quotes blockquote{margin:0;padding:28px;background:rgba(255,255,255,.07);border-radius:var(--r)}
+.quotes p{font:italic 400 1.22rem/1.5 var(--serif);color:#fff}
+.quotes footer{font-size:.92rem;color:#c6dccd}
+.quotes footer b{color:#fff;font-weight:600}
+.rev-link{margin-top:28px;text-align:center}
+.rev-link a{color:#fff}
+@media (min-width:900px){.quotes{grid-template-columns:repeat(3,minmax(0,1fr))}}
+
+/* întrebări */
+.faq-list{max-width:48rem;margin:0 auto}
+.faq details{border-bottom:1px solid var(--line)}
+.faq details:first-child{border-top:1px solid var(--line)}
+.faq summary{position:relative;padding:22px 48px 22px 0;font:400 1.3rem/1.35 var(--serif);cursor:pointer;list-style:none}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"";position:absolute;right:6px;top:50%;width:22px;height:22px;margin-top:-11px;border-radius:50%;background:var(--sage-bg) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%230b7d3f' stroke-width='2.5' stroke-linecap='round'%3E%3Cpath d='M12 7v10M7 12h10'/%3E%3C/svg%3E") center/14px no-repeat;transition:transform .2s}
+.faq details[open] summary::after{transform:rotate(45deg)}
+.faq details p{margin:0 0 24px;color:var(--ink-2)}
+
+/* contact */
+.contact{background:var(--sand)}
+.contact-grid{display:grid;gap:40px}
+.contact h2{font-size:clamp(2.1rem,1.4rem + 2.4vw,3.3rem)}
+.contact-intro{margin:18px 0 26px;color:var(--ink-2);font-size:1.1rem;max-width:30rem}
+.phone-big{display:inline-block;font:400 clamp(2.1rem,1.6rem + 2vw,3rem)/1.1 var(--serif);color:var(--ink);text-decoration:none;border-bottom:1px solid var(--green)}
+.reach{list-style:none;margin:26px 0 0;padding:0;display:grid;gap:14px}
+.reach li{display:flex;gap:14px;line-height:1.5}
+.reach svg{flex:none;width:20px;height:20px;margin-top:3px;color:var(--green)}
+.reach address{font-style:normal}
+.hours{width:100%;max-width:24rem;margin-top:28px;border-collapse:collapse;font-size:.98rem}
+.hours caption{text-align:left;font:500 1.2rem var(--serif);padding-bottom:8px}
+.hours th,.hours td{padding:9px 0;border-top:1px solid var(--line);text-align:left;font-weight:400}
+.hours td{text-align:right;font-variant-numeric:tabular-nums}
+.hours tr.today th,.hours tr.today td{color:var(--green);font-weight:700}
+.form{padding:clamp(22px,3.2vw,40px);background:var(--surface);border-radius:var(--r)}
+.form h3{font-size:1.8rem}
+.form>p{margin:8px 0 22px;color:var(--ink-2);font-size:.97rem}
+.fields{display:grid;gap:16px}
+.field label{display:block;margin-bottom:6px;font-size:.92rem;font-weight:600}
+.field input,.field select,.field textarea{width:100%;min-height:52px;padding:12px 16px;border:1px solid var(--line);border-radius:14px;background:var(--bg);color:var(--ink);font:400 1rem var(--sans)}
+.field textarea{min-height:100px;resize:vertical}
+.field input:focus,.field select:focus,.field textarea:focus{outline:2px solid var(--green);outline-offset:0;background:#fff}
+.field [aria-invalid="true"]{border-color:#b3412f}
+.form-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+.form-actions .btn{flex:1 1 220px}
+.fine{margin:16px 0 0;color:var(--ink-2);font-size:.85rem;line-height:1.5}
+@media (min-width:640px){.fields{grid-template-columns:1fr 1fr}.field.full{grid-column:1/-1}}
+@media (min-width:960px){.contact-grid{grid-template-columns:minmax(0,5fr) minmax(0,6fr);gap:72px;align-items:start}}
+.map{display:block;width:100%;height:clamp(280px,34vw,400px);border:0;filter:sepia(.25) saturate(.8);background:var(--sand)}
+
+/* subsol */
+.foot{padding:48px 0 calc(110px + env(safe-area-inset-bottom));font-size:.9rem;color:var(--ink-2)}
+.foot-grid{display:grid;gap:28px}
+.foot b{color:var(--ink)}
+.foot-logo{width:92px;height:auto;margin:0 0 14px}
+.foot p{margin:0 0 6px}
+.foot ul{list-style:none;margin:0;padding:0;display:grid;gap:6px}
+.foot a{color:var(--ink);text-underline-offset:3px}
+.disclaimer{grid-column:1/-1;padding-top:22px;border-top:1px solid var(--line)}
+@media (min-width:800px){.foot-grid{grid-template-columns:2fr 1fr 1fr}.foot{padding-bottom:48px}}
+
+.callbar{position:fixed;left:0;right:0;bottom:0;z-index:30;display:flex;gap:10px;padding:10px max(16px,env(safe-area-inset-right)) calc(10px + env(safe-area-inset-bottom)) max(16px,env(safe-area-inset-left));background:var(--bg);border-top:1px solid var(--line);transition:transform .25s ease,visibility 0s}
+.callbar .btn{flex:1;min-height:50px;padding:0 12px}
+.js .callbar:not(.show),.menu-open .callbar{transform:translateY(100%);visibility:hidden;transition:transform .25s ease,visibility 0s .25s}
+@media (min-width:800px){.callbar{display:none}}
+@media (prefers-reduced-motion:reduce){.callbar,.js .callbar:not(.show){transition:none}}
+</style>
+<script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+<a class="skip" href="#continut">Sari la conținut</a>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#">
+      <img src="img/semn.png" width="238" height="240" alt="">
+      <span><b><span>Fizio</span>Terapia Plus</b><small>centru de recuperare, Bistrița</small></span>
+    </a>
+    <nav class="nav" aria-label="Navigare">
+      <a href="#despre">Despre</a>
+      <a href="#servicii">Servicii</a>
+      <a href="#tehnici">Tehnici</a>
+      <a href="#tarife">Tarife</a>
+      <a href="#intrebari">Întrebări</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="btn" href="#contact">Programează-te</a>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="meniu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 8h16M4 16h16"/></svg>Meniu</button>
+  </div>
+  <nav class="menu" id="meniu" aria-label="Secțiuni" hidden>
+    <a href="#despre">Despre</a>
+    <a href="#servicii">Servicii</a>
+    <a href="#tehnici">Tehnicile, pe scurt</a>
+    <a href="#prima-sedinta">Prima ședință</a>
+    <a href="#tarife">Tarife</a>
+    <a href="#sfaturi">Exerciții pentru acasă</a>
+    <a href="#intrebari">Întrebări</a>
+    <a href="#contact">Contact</a>
+    <a class="btn" href="tel:+40751557283"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>Sună: 0751 557 283</a>
+  </nav>
+</header>
+
+<main id="continut">
+<section class="hero" id="sus">
+  <svg class="wave" viewBox="0 0 1200 60" preserveAspectRatio="none" aria-hidden="true"><path d="M0 30c100-34 200-34 300 0s200 34 300 0 200-34 300 0 200 34 300 0" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
+  <div class="wrap hero-grid">
+    <div>
+      <p class="hero-place">Centru de recuperare pe Calea Moldovei, în Bistrița</p>
+      <h1>Recuperarea, <em>pas cu pas</em>, în ritmul tău.</h1>
+      <p class="lede">Un medic ortoped și fizioterapeuți în aceeași clădire. Îți explicăm fiecare etapă înainte s-o începem, de la consult până la ultimul exercițiu.</p>
+      <div class="cta-row">
+        <a class="btn" href="#contact">Programează prima ședință</a>
+        <a class="ul" href="#tehnici">Ce înseamnă PRP sau CPM?</a>
+      </div>
+      <ul class="facts">
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>Medic ortoped, fizioterapeut și kinetoterapeut</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>Luni–vineri, 08:00–19:00, cu programare</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></svg>5,0 din 33 recenzii Google</li>
+      </ul>
+    </div>
+    <figure class="hero-media">
+      <img src="img/sala-800.webp" srcset="img/sala-800.webp 800w, img/sala-1079.webp 1079w" sizes="(min-width: 960px) 40vw, 100vw" width="800" height="1000" alt="Sala de recuperare FizioTerapia Plus: un pacient face exerciții de echilibru, cu fizioterapeuții alături" fetchpriority="high">
+      <div class="hero-note"><b>Prima ședință</b><span>Consult sau evaluare, apoi îți spunem ce ai și ce urmează.</span></div>
+    </figure>
+  </div>
+</section>
+
+<section class="about" id="despre">
+  <div class="wrap about-grid">
+    <figure>
+      <img src="img/kerekes-419.webp" srcset="img/kerekes-419.webp 419w" sizes="(min-width: 900px) 460px, 100vw" width="419" height="559" loading="lazy" alt="Dr. Kerekes László în costum medical bleumarin, cu ecusonul FizioTerapia Plus">
+      <figcaption>Dr. Kerekes László, medicul ortoped al clinicii</figcaption>
+    </figure>
+    <div class="letter">
+      <h2>Bun venit la <em>FizioTerapia Plus</em></h2>
+      <p>Am deschis clinica în vara lui 2026, pe Calea Moldovei, cu o idee simplă: diagnosticul și recuperarea să fie în același loc. Medicul ortoped te consultă, iar noi preluăm planul și lucrăm cu tine în sală.</p>
+      <p>Recuperarea nu înseamnă doar trecerea timpului. Ne uităm la cum te miști, măsurăm, comparăm cu data trecută și abia apoi mergem mai departe. Iar exercițiile pe care le primești pentru acasă contează la fel de mult ca ședința.</p>
+      <div class="sign"><b>Attila, Cosmin și Dr. Kerekes</b>Echipa FizioTerapia Plus</div>
+      <ul class="creds">
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Ortopedie și Traumatologie, fizioterapie, kinetoterapie</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Ședințe individuale și de grup</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Terapie laser și aparat CPM pentru mobilizare după operații</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="servicii">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Ce facem <em>împreună</em></h2>
+      <p>Fiecare tratament pornește de la un consult sau de la o evaluare. Abia apoi alegem tehnicile și ritmul ședințelor.</p>
+    </div>
+    <ul class="svc">
+      <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3v6a5 5 0 0 0 10 0V3"/><path d="M11 14v2a4 4 0 0 0 8 0v-3"/><circle cx="19" cy="11" r="2"/></svg></span><h3>Consult ortopedic</h3><p>Diagnostic și plan de tratament pentru artroză, fracturi, entorse și luxații.</p><small>Cu Dr. Kerekes László</small></li>
+      <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="4.5" r="2"/><path d="M12 7v7M8 10l4-1 4 1M9 21l3-7 3 7"/></svg></span><h3>Kinetoterapie</h3><p>Dureri de spate și de articulații, recuperare după fracturi și operații.</p><small>Individual sau în grup</small></li>
+      <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 7c2-3 4-3 6 0s4 3 6 0 4-3 6 0"/><path d="M3 12c2-3 4-3 6 0s4 3 6 0 4-3 6 0"/><path d="M3 17c2-3 4-3 6 0s4 3 6 0 4-3 6 0"/></svg></span><h3>Fizioterapie</h3><p>Terapie laser pentru durere și inflamație, aparat CPM pentru mobilizare după operații.</p><small>Pe lângă exerciții, nu în locul lor</small></li>
+      <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 4l6 6M17 7 7 17M10 14l-3-3 7-7M7 17l-3 3"/></svg></span><h3>Infiltrații</h3><p>Cu acid hialuronic, PRP sau antiinflamatoare, când medicul le recomandă.</p><small>Făcute de medicul ortoped</small></li>
+      <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="6" r="2.5"/><path d="M12 8.5V15M9 11h6M10 21l2-6 2 6"/></svg></span><h3>Recuperare postoperatorie</h3><p>Mobilitate, forță și funcționalitate după operații la genunchi, la umăr sau după fracturi.</p><small>Pansamente și scoaterea firelor, tot aici</small></li>
+      <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 11V6a2 2 0 0 0-4 0v1M14 10V4a2 2 0 0 0-4 0v6M10 10.5V6a2 2 0 0 0-4 0v8a8 8 0 0 0 8 8h2a8 8 0 0 0 8-8v-2a2 2 0 0 0-4 0"/></svg></span><h3>Masaj</h3><p>Masaj terapeutic pentru contracturi și mușchi încordați.</p><small>Separat sau în planul de recuperare</small></li>
+    </ul>
+  </div>
+</section>
+
+<section class="sched" id="tehnici">
+  <div class="wrap">
+    <div class="sched-top">
+      <div class="sec-head">
+        <h2>Tehnicile, <em>pe scurt</em></h2>
+        <p>Ce înseamnă procedurile pe care le folosim și ce simți în timpul lor.</p>
+      </div>
+      <img src="img/noapte-800.webp" srcset="img/noapte-800.webp 800w, img/noapte-1418.webp 1418w" sizes="(min-width: 900px) 540px, 100vw" width="800" height="450" loading="lazy" alt="Clinica FizioTerapia Plus seara, cu sigla luminată pe fațada albă">
+    </div>
+    <div class="glos">
+      <div><h3>Terapie laser</h3><p>Lumina laserului pătrunde în țesut și ajută la scăderea durerii și a inflamației. Nu doare. Simți cel mult o căldură ușoară.</p></div>
+      <div><h3>Aparatul CPM</h3><p>Îndoaie și întinde articulația lent, fără efort din partea ta. După operație ajută la recâștigarea mișcării și scade riscul de rigiditate.</p></div>
+      <div><h3>Infiltrația cu PRP</h3><p>Medicul recoltează puțin sânge, separă plasma bogată în trombocite și o injectează în zona afectată. Se face aici, în clinică.</p></div>
+      <div><h3>Acidul hialuronic</h3><p>Un gel asemănător lichidului din articulație. Medicul îl injectează în articulațiile cu artroză, când consideră că ajută.</p></div>
+      <div><h3>Kinetoterapia</h3><p>Exerciții alese pentru problema ta, de la mișcări ușoare pe masă până la forță cu greutăți. E partea în care lucrezi tu, cu noi alături.</p></div>
+      <div><h3>Ședințele de grup</h3><p>Exerciții făcute împreună cu alți pacienți, cu un fizioterapeut alături. Întreabă-ne de zile și ore.</p></div>
+    </div>
+    <p class="sched-note">Nu știi ce ți se potrivește? Asta stabilim împreună, la consult sau la evaluare.</p>
+  </div>
+</section>
+
+<section id="prima-sedinta">
+  <div class="wrap">
+    <div class="sec-head center">
+      <h2>Cum arată <em>prima ședință</em></h2>
+      <p>Fără grabă și fără termeni pe care nu-i înțelegi. Pleci acasă știind ce ai de făcut.</p>
+    </div>
+    <div class="first-wrap">
+      <svg class="steps-wave" viewBox="0 0 1000 36" preserveAspectRatio="none" aria-hidden="true"><path d="M0 18c83-24 167-24 250 0s167 24 250 0 167-24 250 0 167 24 250 0" fill="none" stroke="#8fcfa7" stroke-width="1.5" vector-effect="non-scaling-stroke"/></svg>
+      <ol class="first-steps">
+        <li><h3>Ne cunoaștem</h3><p>Ne povestești ce te doare și de când. Ne uităm la investigații și la felul în care te miști.</p></li>
+        <li><h3>Diagnostic și plan</h3><p>Dacă nu ai un diagnostic, te vede întâi medicul ortoped. Apoi stabilim împreună planul de recuperare.</p></li>
+        <li><h3>Lucrăm și măsurăm</h3><p>Începem exercițiile, iar la reevaluare comparăm cu prima zi. Pleci acasă cu exercițiile de făcut până data viitoare.</p></li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- DE CONFIRMAT: prețurile sunt orientative, puse ca să arate pagina plină -->
+<section class="prices" id="tarife">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Tarife și <em>pachete</em></h2>
+      <p>Prețurile sunt orientative. Plătești cu cardul sau contactless.</p>
+    </div>
+    <div class="price-grid">
+      <div class="pcol">
+        <h3>Consult și recuperare</h3>
+        <p>Individual, cu medicul sau cu fizioterapeutul.</p>
+        <dl>
+          <div><dt>Consult ortopedic<small>cu Dr. Kerekes László</small></dt><dd>200 lei</dd></div>
+          <div><dt>Evaluare de kinetoterapie<small>cu plan de recuperare</small></dt><dd>100 lei</dd></div>
+          <div><dt>Ședință de kinetoterapie</dt><dd>100 lei</dd></div>
+          <div><dt>Pachet 10 ședințe</dt><dd>900 lei</dd></div>
+        </dl>
+      </div>
+      <div class="pcol">
+        <h3>Terapii și masaj</h3>
+        <p>Separat sau în aceeași ședință.</p>
+        <dl>
+          <div><dt>Ședință de grup</dt><dd>50 lei</dd></div>
+          <div><dt>Terapie laser<small>o zonă</small></dt><dd>60 lei</dd></div>
+          <div><dt>Masaj terapeutic<small>50 de minute</small></dt><dd>120 lei</dd></div>
+          <div><dt>Infiltrații PRP sau acid hialuronic<small>după consult</small></dt><dd>la consult</dd></div>
+        </dl>
+      </div>
+      <div class="gift">
+        <svg class="g" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+        <div><h3>Ședințe de grup</h3><p>Pe lângă ședințele individuale lucrăm și în grup, cu un fizioterapeut alături. Scrie-ne și îți spunem zilele și orele.</p></div>
+        <a class="btn" href="https://wa.me/40751557283?text=Bun%C4%83%20ziua!%20A%C8%99%20vrea%20detalii%20despre%20%C8%99edin%C8%9Bele%20de%20grup." target="_blank" rel="noopener">Întreabă de program</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="sfaturi">
+  <div class="wrap tips-grid">
+    <figure><img src="img/intrare-800.webp" srcset="img/intrare-800.webp 800w, img/intrare-1500.webp 1500w" sizes="(min-width: 900px) 480px, 100vw" width="800" height="533" loading="lazy" alt="Clădirea FizioTerapia Plus ziua, cu sigla pe fațadă și vitrina cu serviciile clinicii"></figure>
+    <div>
+      <div class="sec-head">
+        <h2>Trei exerciții pentru <em>pauza de la birou</em></h2>
+        <p>Stai mult pe scaun? Le poți face chiar acolo, fără echipament. Dacă te doare în timpul lor, oprește-te și sună-ne.</p>
+      </div>
+      <ol class="tips">
+        <li><h3>Bărbia spre piept <span>10 repetări</span></h3><p>Stai drept și trage ușor bărbia înapoi, ca și cum ai face o bărbie dublă. Ține 3 secunde și relaxează.</p></li>
+        <li><h3>Rotații de umeri <span>10 în fiecare sens</span></h3><p>Ridică umerii spre urechi, du-i înapoi și coboară-i. Mișcarea e lentă și cât mai largă.</p></li>
+        <li><h3>Răsucire pe scaun <span>3 pe fiecare parte</span></h3><p>Cu tălpile pe podea, răsucește trunchiul spre dreapta, ține 3 respirații, apoi spre stânga.</p></li>
+      </ol>
+      <p class="tips-note">Exercițiile sunt generale și nu înlocuiesc o evaluare.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Recenzii reale de pe Google (octombrie 2026), scurtate. Se publică doar cu acordul autorilor. -->
+<section class="rev" id="recenzii">
+  <div class="wrap">
+    <div class="sec-head center">
+      <h2>Ce spun <em>pacienții</em></h2>
+      <p>5,0 din 5, din 33 recenzii pe Google.</p>
+    </div>
+    <div class="quotes">
+      <blockquote><p>Recomand cu încredere! Întregul personal este foarte amabil, atent și profesionist! Atmosfera plăcută, procedurile și fiecare etapă a recuperării sunt explicate cu răbdare și seriozitate.</p><footer><b>Flaviu H.</b>, recuperare</footer></blockquote>
+      <blockquote><p>Am avut o experiență foarte bună cu domnul Isai Cosmin! Este un kinetoterapeut profesionist, atent și implicat, care explică foarte bine fiecare exercițiu și se adaptează nevoilor pacientului.</p><footer><b>Cristian P.</b>, kinetoterapie</footer></blockquote>
+      <blockquote><p>Recomand cu toată încrederea acest centru de fizioterapie! Personal amabil și profesionist, servicii de calitate și multă atenție acordată pacientului.</p><footer><b>Maria F.</b>, recenzie pe Google</footer></blockquote>
+    </div>
+    <p class="rev-link"><a class="ul" style="color:#fff" href="https://maps.app.goo.gl/LZESvyjbLPAvFtn66" target="_blank" rel="noopener">Citește toate recenziile pe Google</a></p>
+  </div>
+</section>
+
+<section class="faq" id="intrebari">
+  <div class="wrap">
+    <div class="sec-head center">
+      <h2>Întrebări <em>frecvente</em></h2>
+    </div>
+    <div class="faq-list">
+      <details><summary>Am nevoie de programare?</summary><p>Da, lucrăm doar cu programare, de luni până vineri între 08:00 și 19:00. Sună la 0751 557 283.</p></details>
+      <details><summary>Încep cu medicul sau cu kinetoterapeutul?</summary><p>Dacă nu ai un diagnostic, începe cu consultul ortopedic. Dacă ai deja diagnostic sau vii după operație, poți începe direct cu evaluarea de kinetoterapie. Nu ești sigur? Sună-ne și îți spunem.</p></details>
+      <details><summary>Doare infiltrația?</summary><p>Simți înțepătura acului și o presiune în zonă, câteva secunde. Medicul îți explică dinainte fiecare pas.</p></details>
+      <details><summary>Pot veni dacă am artroză?</summary><p>Da. Medicul ortoped îți spune în ce stadiu este și dacă te ajută o infiltrație, iar noi lucrăm pe mobilitate și pe forța mușchilor din jurul articulației.</p></details>
+      <details><summary>Ce să port?</summary><p>Haine comode și încălțăminte sport. Pentru genunchi e mai simplu cu o pereche de pantaloni scurți.</p></details>
+      <details><summary>Ce se întâmplă dacă nu pot ajunge?</summary><p>Anunță-ne cât mai devreme, la 0751 557 283, și mutăm ședința într-o zi care îți convine.</p></details>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact" data-hide-callbar>
+  <div class="wrap contact-grid">
+    <div>
+      <h2>Hai să <em>începem</em></h2>
+      <p class="contact-intro">Sună-ne, scrie-ne sau completează formularul. Lucrăm doar cu programare.</p>
+      <a class="phone-big" href="tel:+40751557283">0751 557 283</a>
+      <ul class="reach">
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22z"/></svg><a href="https://wa.me/40751557283" target="_blank" rel="noopener">Scrie-ne pe WhatsApp</a></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg><a href="mailto:fizioterapiaplus@gmail.com">fizioterapiaplus@gmail.com</a></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 13a5 5 0 0 0 7.5.5l3-3a5 5 0 0 0-7-7l-1.7 1.7"/><path d="M14 11a5 5 0 0 0-7.5-.5l-3 3a5 5 0 0 0 7 7l1.7-1.7"/></svg><a href="https://www.facebook.com/profile.php?id=61589425088427" target="_blank" rel="noopener">FizioTerapia Plus pe Facebook</a></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 5-5.5 10.2-7.4 11.8a1 1 0 0 1-1.2 0C9.5 20.2 4 15 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg><address>Calea Moldovei 15A, 420096 Bistrița<br>Clădirea albă cu sigla verde, parcare gratuită în față</address></li>
+      </ul>
+      <table class="hours" data-hours>
+        <caption>Program</caption>
+        <tbody>
+          <tr data-days="1,2,3,4,5"><th scope="row">Luni–vineri</th><td>08:00–19:00</td></tr>
+          <tr data-days="6,0"><th scope="row">Sâmbătă și duminică</th><td>Închis</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <form class="form" id="form-programare" novalidate>
+      <h3>Programare</h3>
+      <p>Mesajul se deschide gata scris în WhatsApp sau în e-mail. Site-ul nu salvează datele tale.</p>
+      <div class="fields">
+        <div class="field"><label for="f-nume">Nume</label><input id="f-nume" name="nume" autocomplete="name" required></div>
+        <div class="field"><label for="f-tel">Telefon</label><input id="f-tel" name="telefon" type="tel" autocomplete="tel" inputmode="tel" required></div>
+        <div class="field full"><label for="f-tip">Pentru ce vii?</label>
+          <select id="f-tip" name="tip"><option>Prima ședință, consult sau evaluare</option><option>Consult ortopedic</option><option>Recuperare după operație</option><option>Durere de spate sau de articulații</option><option>Masaj terapeutic</option><option>Ședințe de grup</option></select>
+        </div>
+        <div class="field full"><label for="f-mesaj">Câteva cuvinte despre tine (opțional)</label><textarea id="f-mesaj" name="mesaj" placeholder="Ce te doare, de când, ce ai mai încercat"></textarea></div>
+      </div>
+      <div class="form-actions">
+        <button class="btn" type="submit" value="wa"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22z"/></svg>Trimite pe WhatsApp</button>
+        <button class="btn btn-soft" type="submit" value="email">Trimite pe e-mail</button>
+      </div>
+      <p class="fine">Datele ajung doar la noi, prin aplicația pe care o alegi. Detalii în <a href="#">politica de confidențialitate</a>.</p>
+    </form>
+  </div>
+</section>
+<iframe class="map" title="Hartă: FizioTerapia Plus, Calea Moldovei 15A, Bistrița" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=FizioTerapia+plus,+Calea+Moldovei+15A,+Bistri%C8%9Ba&amp;z=16&amp;output=embed"></iframe>
+</main>
+
+<footer class="foot" data-hide-callbar>
+  <div class="wrap foot-grid">
+    <div>
+      <img class="foot-logo" src="img/logo.png" width="640" height="681" alt="FizioTerapia Plus" loading="lazy">
+      <p><b>FizioTerapia Plus</b></p>
+      <!-- DE COMPLETAT: denumirea firmei, CUI, nr. Reg. Com. și autorizația sanitară -->
+      <p>Firma, CUI și nr. Reg. Com.: de completat</p>
+      <p>Autorizație sanitară de funcționare: de completat</p>
+      <p>Calea Moldovei 15A, 420096 Bistrița</p>
+    </div>
+    <ul>
+      <li><a href="#">Politica de confidențialitate</a></li>
+      <li><a href="#">Politica de cookie-uri</a></li>
+      <li><a href="https://anpc.ro/ce-este-sal/" target="_blank" rel="noopener">ANPC, soluționarea alternativă a litigiilor</a></li>
+    </ul>
+    <ul>
+      <li><a href="tel:+40751557283">0751 557 283</a></li>
+      <li><a href="mailto:fizioterapiaplus@gmail.com">fizioterapiaplus@gmail.com</a></li>
+      <li><a href="https://www.facebook.com/profile.php?id=61589425088427" target="_blank" rel="noopener">Facebook</a></li>
+    </ul>
+    <p class="disclaimer">Informațiile de pe acest site au rol informativ și nu înlocuiesc consultul medical. © <span data-year>2026</span> FizioTerapia Plus.</p>
+  </div>
+</footer>
+
+<div class="callbar">
+  <a class="btn" href="tel:+40751557283"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>Sună</a>
+  <a class="btn btn-soft" href="https://wa.me/40751557283" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22z"/></svg>WhatsApp</a>
+</div>
+
+<script>
+/* meniul de pe telefon, linia de sub header și secțiunea curentă în navigare */
+(function(){
+  var top=document.querySelector('.top'),btn=top.querySelector('.menu-btn'),menu=document.getElementById('meniu');
+  function setOpen(o){btn.setAttribute('aria-expanded',o?'true':'false');menu.hidden=!o;document.documentElement.classList.toggle('menu-open',o);}
+  btn.addEventListener('click',function(){setOpen(menu.hidden);});
+  menu.addEventListener('click',function(e){if(e.target.closest('a'))setOpen(false);});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape'&&!menu.hidden){setOpen(false);btn.focus();}});
+  document.addEventListener('click',function(e){if(!menu.hidden&&!top.contains(e.target))setOpen(false);});
+  var links=[].slice.call(document.querySelectorAll('.nav a')),secs=links.map(function(a){return document.querySelector(a.getAttribute('href'));}),ticking=false;
+  function update(){
+    ticking=false;
+    top.classList.toggle('scrolled',scrollY>8);
+    var i=-1;secs.forEach(function(s,k){if(s.getBoundingClientRect().top<innerHeight*.4)i=k;});
+    links.forEach(function(a,k){if(k===i)a.setAttribute('aria-current','location');else a.removeAttribute('aria-current');});
+  }
+  addEventListener('scroll',function(){if(!ticking){ticking=true;requestAnimationFrame(update);}},{passive:true});
+  update();
+})();
+
+/* programul de azi e evidențiat în tabel (zilele sunt în data-days, 0 = duminică) */
+(function(){
+  var row=document.querySelector('[data-hours] tr[data-days*="'+new Date().getDay()+'"]');
+  if(row)row.classList.add('today');
+})();
+
+/* formularul compune mesajul și îl deschide în WhatsApp sau în e-mail; nu trimite nimic pe server */
+(function(){
+  var f=document.getElementById('form-programare');
+  f.addEventListener('submit',function(e){
+    e.preventDefault();
+    var bad=[].slice.call(f.querySelectorAll('[required]')).filter(function(i){return !i.value.trim();});
+    bad.forEach(function(i){i.setAttribute('aria-invalid','true');});
+    if(bad.length){bad[0].focus();return;}
+    var d=new FormData(f),msg='Bună ziua! Aș dori o programare.\nNume: '+d.get('nume')+'\nTelefon: '+d.get('telefon')+'\nPentru: '+d.get('tip')+(d.get('mesaj').trim()?'\nDetalii: '+d.get('mesaj').trim():'');
+    if(e.submitter&&e.submitter.value==='email')location.href='mailto:fizioterapiaplus@gmail.com?subject='+encodeURIComponent('Programare')+'&body='+encodeURIComponent(msg);
+    else window.open('https://wa.me/40751557283?text='+encodeURIComponent(msg),'_blank','noopener');
+  });
+  f.addEventListener('input',function(e){e.target.removeAttribute('aria-invalid');});
+})();
+
+/* bara de jos pe telefon: apare după hero, dispare la contact și în subsol */
+(function(){
+  var bar=document.querySelector('.callbar');
+  if(!('IntersectionObserver' in window)){bar.classList.add('show');return;}
+  var seen=new Map();
+  var io=new IntersectionObserver(function(es){
+    es.forEach(function(e){seen.set(e.target,e.isIntersecting);});
+    var hide=false;seen.forEach(function(v){if(v)hide=true;});
+    bar.classList.toggle('show',!hide);
+  });
+  [document.getElementById('sus')].concat([].slice.call(document.querySelectorAll('[data-hide-callbar]'))).forEach(function(el){io.observe(el);});
+})();
+document.querySelector('[data-year]').textContent=new Date().getFullYear();
+</script>
+</body>
+</html>

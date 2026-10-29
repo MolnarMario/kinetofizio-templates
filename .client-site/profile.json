@@ -1,0 +1,52 @@
+{
+  "name": "kinetofizio-templates",
+  "businessType": "kinetoterapie / fizioterapie",
+  "language": "ro",
+  "templates": [
+    { "id": "axa", "dir": "varianta-1-axa", "label": "Axa", "tagline": "clinică, luminoasă" },
+    { "id": "elan", "dir": "varianta-2-elan", "label": "Elan", "tagline": "sport, energică" },
+    { "id": "respiro", "dir": "varianta-3-respiro", "label": "Respiro", "tagline": "caldă, liniștită" }
+  ],
+  "blocks": [
+    { "name": "head", "start": ["<head>", "<!--"], "end": "<style>" },
+    { "name": "body", "start": ["<body>\n"], "startAfter": true, "end": "\n<script>\n/*" }
+  ],
+  "placeholders": ["Nume Studio", "0700 000 000", "40700000000", "numestudio", "Nume Prenume", "București", "Strada Exemplu"],
+  "softPlaceholders": ["Exemplu"],
+  "contactTokens": {
+    "email": "contact@numestudio.ro",
+    "whatsapp": "wa.me/40700000000",
+    "phoneIntl": "+40700000000",
+    "phone": "0700 000 000"
+  },
+  "textChecks": [
+    { "pattern": "—", "message": "em dash" },
+    { "pattern": "[“”„‘’«»]", "message": "curly quote" },
+    { "pattern": "[şţŞŢ]", "message": "cedilla, Romanian uses ș ț with a comma below" }
+  ],
+  "todoMarker": "DE CONFIRMAT",
+  "requireNoindex": true,
+  "publish": {
+    "repo": "MolnarMario/kinetofizio-templates",
+    "branch": "main",
+    "baseUrl": "https://thebarbellengineer.com/kinetofizio-templates/"
+  },
+  "example": "kineticfit",
+  "ui": {
+    "comment": "Pagina de prezentare pentru {name}: cele trei variante, fiecare într-un iframe,\n  cu taburi între ele. Varianta aleasă rămâne în adresă ({hashes}).",
+    "title": "{shortName}, propunere de site",
+    "description": "Trei variante de site pentru {name} din {city}.",
+    "subtitle": "Propunere de site, trei variante",
+    "tablist": "Variante de site",
+    "preview": "Previzualizare",
+    "desk": "Calculator",
+    "phone": "Telefon",
+    "confirm": "De confirmat",
+    "open": "Deschide separat",
+    "openLabel": "Deschide varianta într-o pagină nouă",
+    "confirmTitle": "Ce mai trebuie înainte de publicare",
+    "confirmEnd": "Paginile nu apar în Google până la lansare.",
+    "frameTitle": "Varianta {label} a site-ului {shortName}",
+    "docTitle": "{shortName}, varianta {label}"
+  }
+}

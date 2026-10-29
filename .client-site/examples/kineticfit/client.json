@@ -1,0 +1,25 @@
+{
+  "slug": "kineticfit",
+  "name": "Clinica KineticFit",
+  "shortName": "KineticFit",
+  "city": "Satu Mare",
+  "contact": {
+    "email": "clinicakineticfit@gmail.com",
+    "whatsapp": "wa.me/40757580831",
+    "phoneIntl": "+40757580831",
+    "phone": "0757 580 831"
+  },
+  "colors": { "main": "#3d544e", "accent": "#c79e41", "ink": "#1f2e29" },
+  "logo": "axa/img/semn.png",
+  "favicon": "axa/img/favicon.png",
+  "confirmIntro": "Variantele folosesc datele de pe pagina de Facebook, de pe Google Maps și de pe vitrina clinicii. Câteva lucruri le știe doar clinica:",
+  "confirm": [
+    "Prețurile. Cele din pagini sunt orientative.",
+    "Denumirea firmei, CUI-ul, numărul de la Registrul Comerțului și autorizația sanitară, pentru subsol.",
+    "Numele complete, studiile și specializările lui Erik și Brian, și dacă anunțul de angajare mai e valabil.",
+    "Dacă numărul 0757 580 831 are WhatsApp. Formularul de programare trimite cererea acolo.",
+    "Acordul autorilor pentru recenziile de pe Google citate în pagini.",
+    "Domeniul clinicakineticfit.com nu mai răspunde. Îl reînnoim sau alegem altul.",
+    "Poze cu echipa la lucru, în clinică. Cele de acum sunt de pe Facebook și de pe Google Maps."
+  ]
+}

@@ -1,8 +1,0 @@
-{
-  "name": "kineto-client-scripts",
-  "private": true,
-  "description": "Build helpers for client pages made from the three templates. Run npm install here once.",
-  "dependencies": {
-    "sharp": "0.33.5"
-  }
-}

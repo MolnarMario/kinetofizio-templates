@@ -111,7 +111,7 @@ Toate sunt de pe Wikimedia Commons, în domeniul public sau CC0, deci se pot fol
 
 ## Clienți
 
-Pașii pentru un client nou, cu scripturile lor, sunt în `.claude/skills/kineto-client/SKILL.md`. Într-o sesiune Claude Code deschisă în acest folder pornești cu `/kineto-client <link Google Maps> <link Facebook>`. Orice alt agent poate primi fișierul ca instrucțiuni.
+Un client nou se face cu skill-ul general `client-site` (`~/.claude/skills/client-site/SKILL.md`, pe calculatorul lui Mario): `/client-site <link Google Maps> <link Facebook>`. Ce e specific acestor șabloane (culorile fiecărei variante, pozele, ce folosește JavaScriptul, lista de confirmat pentru o clinică) e în `.client-site/profile.md`, iar `.client-site/profile.json` e pentru scripturi. KineticFit e exemplul complet, în `.client-site/examples/kineticfit/`.
 
 ### Clinica KineticFit, Satu Mare
 

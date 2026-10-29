@@ -30,7 +30,7 @@
     "owner": "MolnarMario",
     "folder": "clients",
     "branch": "main",
-    "visibility": "private",
+    "visibility": "public",
     "baseUrl": "https://thebarbellengineer.com/"
   },
   "example": "kineticfit",
